@@ -1,6 +1,6 @@
 import Contact from "../components/elements/Contact";
 import Home from "../components/elements/Home";
-import News from "../components/elements/News";
+// import News from "../components/elements/News";
 import Portfolio from "../components/elements/Portfolio";
 import Price from "../components/elements/Price";
 import Skills from "../components/elements/Skills";
@@ -31,7 +31,7 @@ export default function Index() {
 
                 <Price />
 
-                <News />
+                {/* <News /> */}
 
                 <Contact />
 

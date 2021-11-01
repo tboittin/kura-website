@@ -69,9 +69,9 @@ const Header = () => {
                                     <li class={isToggled ? "opened" : ""}>
                                         <a href="#price">Price</a>
                                     </li>
-                                    <li class={isToggled ? "opened" : ""}>
+                                    {/* <li class={isToggled ? "opened" : ""}>
                                         <a href="#news">News</a>
-                                    </li>
+                                    </li> */}
                                     <li class={isToggled ? "opened" : ""}>
                                         <a href="#contact">Contact</a>
                                     </li>

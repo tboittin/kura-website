@@ -667,12 +667,15 @@ body.opened .kura_tm_hero .content .left {
     padding: 50px;
     overflow-y: scroll;
 }
-.kura_tm_hero .popup_informations {
+.kura_tm_hero .popup_informations_open {
+    max-height: 500px;
+    opacity: 1;
+    transition: max-height .3s ease-in .3s, opacity .2s ease-in .6s;
+}
+.kura_tm_hero .popup_informations_hidden {
+    max-height: 0px;
     opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    z-index: -11;
-    display: none;
+    transition: max-height .3s ease-in .2s, opacity .2s ease-in;
 }
 .kura_tm_modalbox .popup_informations {
     width: 100%;
