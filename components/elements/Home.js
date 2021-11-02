@@ -5,12 +5,11 @@ import { HomeModal } from "./ContentModal"
 import HERO_CONTENT from "../../data/HERO_CONTENT.json"
 
 const Home = () => {
-  // const [heroToggle, setHeroToggle] = useState("")
   const [open, setOpen] = useState(false)
   const [modalValue, setModalValue] = useState({
     img: null,
     title: "",
-    description: []
+    description: [],
   })
   const onOpenModal = (img, title, description) => {
     setOpen(true)
@@ -32,33 +31,34 @@ const Home = () => {
                 <div className="services">
                   <ul>
                     {HERO_CONTENT.map(content => (
-                      <>
-                        <li>
-                          <a
-                            href
-                            onClick={() => {
-                              onOpenModal(`/img/hero/1.jpg`, content.title, content.description)
-                            }}
-                          >
-                            <img
-                              className="image"
-                              src="/img/service/1.jpg"
-                              alt=""
-                            />
-                            <span>{content.title}</span>
-                            <img
-                              className="svg"
-                              src="/img/svg/right-arrow.svg"
-                              alt=""
-                            />
-                          </a>
-                        </li>
-                      </>
+                      <li key={content.keyword}>
+                        <a
+                          href='#'
+                          onClick={() => {
+                            onOpenModal(
+                              `/img/hero/1.jpg`,
+                              content.title,
+                              content.description
+                            )
+                          }}
+                        >
+                          <img
+                            className="image"
+                            src="/img/service/1.jpg"
+                            alt=""
+                          />
+                          <span>{content.title}</span>
+                          <img
+                            className="svg"
+                            src="/img/svg/right-arrow.svg"
+                            alt=""
+                          />
+                        </a>
+                      </li>
                     ))}
                   </ul>
                 </div>
-                <div className="short_info">
-                </div>
+                <div className="short_info"></div>
               </div>
               <div className="right">
                 <div className="image">

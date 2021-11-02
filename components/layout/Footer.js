@@ -3,25 +3,25 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <div class="kura_tm_section">
-                    <div class="kura_tm_copyright">
-                        <div class="container">
+            <div className="kura_tm_section">
+                    <div className="kura_tm_copyright">
+                        <div className="container">
                             <div
-                                class="copyright_inner wow fadeInUp"
+                                className="copyright_inner wow fadeInUp"
                                 data-wow-duration=".7s"
                             >
-                                <div class="text">
+                                <div className="text">
                                     <p>
                                         Copyright &copy; 2021. All rights
                                         reserved.
                                     </p>
                                 </div>
-                                <div class="social">
+                                <div className="social">
                                     <ul>
                                         <li>
                                             <a href="#">
                                                 <img
-                                                    class="svg"
+                                                    className="svg"
                                                     src="/img/svg/social/facebook.svg"
                                                     alt=""
                                                 />
@@ -30,7 +30,7 @@ const Footer = () => {
                                         <li>
                                             <a href="#">
                                                 <img
-                                                    class="svg"
+                                                    className="svg"
                                                     src="/img/svg/social/twitter.svg"
                                                     alt=""
                                                 />
@@ -39,7 +39,7 @@ const Footer = () => {
                                         <li>
                                             <a href="#">
                                                 <img
-                                                    class="svg"
+                                                    className="svg"
                                                     src="/img/svg/social/instagram.svg"
                                                     alt=""
                                                 />
@@ -48,7 +48,7 @@ const Footer = () => {
                                         <li>
                                             <a href="#">
                                                 <img
-                                                    class="svg"
+                                                    className="svg"
                                                     src="/img/svg/social/dribbble.svg"
                                                     alt=""
                                                 />
@@ -57,7 +57,7 @@ const Footer = () => {
                                         <li>
                                             <a href="#">
                                                 <img
-                                                    class="svg"
+                                                    className="svg"
                                                     src="/img/svg/social/tik-tok.svg"
                                                     alt=""
                                                 />

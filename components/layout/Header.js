@@ -37,19 +37,19 @@ const Header = () => {
 
     return (
         <>
-            <div class={scroll ? "kura_tm_topbar animate" : "kura_tm_topbar"}>
-                <div class="wrapper">
-                    <div class="topbar_inner">
-                        <div class="logo">
+            <div className={scroll ? "kura_tm_topbar animate" : "kura_tm_topbar"}>
+                <div className="wrapper">
+                    <div className="topbar_inner">
+                        <div className="logo">
                             <a href="#">
                                 <img src="/img/logo/dark.png" alt="" />
                             </a>
                         </div>
-                        <div class="menu">
-                            <div class="list">
-                                <ul class="anchor_nav">
+                        <div className="menu">
+                            <div className="list">
+                                <ul className="anchor_nav">
                                     <li
-                                        class={
+                                        className={
                                             isToggled
                                                 ? "current opened"
                                                 : "current"
@@ -57,36 +57,36 @@ const Header = () => {
                                     >
                                         <a href="#home">Home</a>
                                     </li>
-                                    <li class={isToggled ? "opened" : ""}>
+                                    <li className={isToggled ? "opened" : ""}>
                                         <a href="#portfolio">Portfolio</a>
                                     </li>
-                                    <li class={isToggled ? "opened" : ""}>
+                                    <li className={isToggled ? "opened" : ""}>
                                         <a href="#skills">Skills</a>
                                     </li>
-                                    <li class={isToggled ? "opened" : ""}>
+                                    <li className={isToggled ? "opened" : ""}>
                                         <a href="#timeline">Timeline</a>
                                     </li>
-                                    <li class={isToggled ? "opened" : ""}>
+                                    <li className={isToggled ? "opened" : ""}>
                                         <a href="#price">Price</a>
                                     </li>
-                                    {/* <li class={isToggled ? "opened" : ""}>
+                                    {/* <li className={isToggled ? "opened" : ""}>
                                         <a href="#news">News</a>
                                     </li> */}
-                                    <li class={isToggled ? "opened" : ""}>
+                                    <li className={isToggled ? "opened" : ""}>
                                         <a href="#contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>
-                            <div class="trigger" onClick={toggleTrueFalse}>
+                            <div className="trigger" onClick={toggleTrueFalse}>
                                 <div
-                                    class={
+                                    className={
                                         isToggled
                                             ? "hamburger hamburger--slider is-active"
                                             : "hamburger hamburger--slider"
                                     }
                                 >
-                                    <div class="hamburger-box">
-                                        <div class="hamburger-inner"></div>
+                                    <div className="hamburger-box">
+                                        <div className="hamburger-inner"></div>
                                     </div>
                                 </div>
                             </div>
@@ -94,33 +94,33 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div class="kura_tm_mobile_menu">
-                <div class="mobile_menu_inner">
-                    <div class="mobile_in">
-                        <div class="logo">
+            <div className="kura_tm_mobile_menu">
+                <div className="mobile_menu_inner">
+                    <div className="mobile_in">
+                        <div className="logo">
                             <a href="#">
                                 <img src="/img/logo/dark.png" alt="" />
                             </a>
                         </div>
-                        <div class="trigger" onClick={toggleTrueFalse}>
+                        <div className="trigger" onClick={toggleTrueFalse}>
                             <div
-                                class={
+                                className={
                                     isToggled
                                         ? "hamburger hamburger--slider is-active"
                                         : "hamburger hamburger--slider"
                                 }
                             >
-                                <div class="hamburger-box">
-                                    <div class="hamburger-inner"></div>
+                                <div className="hamburger-box">
+                                    <div className="hamburger-inner"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class={isToggled ? "dropdown active" : "dropdown"}>
-                    <div class="dropdown_inner">
-                        <ul class="anchor_nav">
-                            <li class="current">
+                <div className={isToggled ? "dropdown active" : "dropdown"}>
+                    <div className="dropdown_inner">
+                        <ul className="anchor_nav">
+                            <li className="current">
                                 <a href="#home">Home</a>
                             </li>
                             <li>

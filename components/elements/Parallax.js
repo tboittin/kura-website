@@ -14,7 +14,7 @@ export default function Parallax() {
     });
     return (
         <>
-            <div class="jarallax"></div>
+            <div className="jarallax"></div>
         </>
     );
 }

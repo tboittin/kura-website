@@ -68,19 +68,19 @@ const Portfolio = () => {
     };
     return (
         <div>
-            <div class="kura_tm_section" id="portfolio">
-                <div class="kura_tm_portfolio">
-                    <div class="container">
-                        <div class="kura_tm_main_title">
+            <div className="kura_tm_section" id="portfolio">
+                <div className="kura_tm_portfolio">
+                    <div className="container">
+                        <div className="kura_tm_main_title">
                             <span>Portfolio</span>
                             <h3>Selected Works</h3>
                         </div>
                         <div
-                            class="portfolio_list gallery_zoom wow fadeInUp"
+                            className="portfolio_list gallery_zoom wow fadeInUp"
                             data-wow-duration=".7s"
                         >
-                            <div class="swiper-container">
-                                <div class="swiper-wrapper">
+                            <div className="swiper-container">
+                                <div className="swiper-wrapper">
                                     <Swiper
                                         slidesPerView={3}
                                         spaceBetween={30}
@@ -110,16 +110,15 @@ const Portfolio = () => {
                                         }}
                                     >
                                         {IMAGES.map((image, index) => (
-                                            <>
-                                                <SwiperSlide class="swiper-slide">
-                                                    <div class="list_inner">
-                                                        <div class="image">
+                                                <SwiperSlide className="swiper-slide" key={index}>
+                                                    <div className="list_inner">
+                                                        <div className="image">
                                                             <img
                                                                 src="/img/portfolio/410-460.jpg"
                                                                 alt=""
                                                             />
                                                             <div
-                                                                class="main"
+                                                                className="main"
                                                                 style={{
                                                                     backgroundImage:
                                                                         "url(" +
@@ -127,13 +126,13 @@ const Portfolio = () => {
                                                                         ")",
                                                                 }}
                                                             ></div>
-                                                            <div class="overlay"></div>
+                                                            <div className="overlay"></div>
                                                             <img
-                                                                class="svg"
+                                                                className="svg"
                                                                 src="/img/svg/right-arrow.svg"
                                                                 alt=""
                                                             />
-                                                            <div class="details">
+                                                            <div className="details">
                                                                 <h3>
                                                                     {
                                                                         image.title
@@ -145,7 +144,7 @@ const Portfolio = () => {
                                                             </div>
                                                         </div>
                                                         <a
-                                                            class="kura_tm_full_link popup-vimeo"
+                                                            className="kura_tm_full_link popup-vimeo"
                                                             onClick={() =>
                                                                 showLightBox(
                                                                     index
@@ -154,27 +153,26 @@ const Portfolio = () => {
                                                         ></a>
                                                     </div>
                                                 </SwiperSlide>
-                                            </>
                                         ))}
                                     </Swiper>
                                 </div>
-                                <div class="kura_tm_swiper_progress fill">
-                                    <div class="my_pagination_in"></div>
-                                    <div class="my_navigation">
+                                <div className="kura_tm_swiper_progress fill">
+                                    <div className="my_pagination_in"></div>
+                                    <div className="my_navigation">
                                         <ul>
                                             <li>
-                                                <a class="my_prev">
+                                                <a className="my_prev">
                                                     <img
-                                                        class="svg"
+                                                        className="svg"
                                                         src="img/svg/right-arrow.svg"
                                                         alt=""
                                                     />
                                                 </a>
                                             </li>
                                             <li>
-                                                <a class="my_next">
+                                                <a className="my_next">
                                                     <img
-                                                        class="svg"
+                                                        className="svg"
                                                         src="img/svg/right-arrow.svg"
                                                         alt=""
                                                     />

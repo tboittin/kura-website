@@ -12,11 +12,11 @@ export default function Index() {
     return (
         <div id="opened">
             <div
-                class="kura_tm_all_wrap"
+                className="kura_tm_all_wrap"
                 data-color="orange"
             >
                 <div id="preloader">
-                    <div class="loader_line"></div>
+                    <div className="loader_line"></div>
                 </div>
 
                 <Header />
@@ -44,8 +44,8 @@ export default function Index() {
                     <source src="/audio/2.mp3" />
                 </audio>
 
-                <div class="mouse-cursor cursor-outer"></div>
-                <div class="mouse-cursor cursor-inner"></div>
+                <div className="mouse-cursor cursor-outer"></div>
+                <div className="mouse-cursor cursor-inner"></div>
             </div>
         </div>
     );

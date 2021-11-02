@@ -3,19 +3,19 @@ import React from "react";
 const Contact = () => {
     return (
         <div>
-            <div class="kura_tm_section" id="contact">
-                <div class="kura_tm_contact">
-                    <div class="container">
-                        <div class="kura_tm_main_title">
+            <div className="kura_tm_section" id="contact">
+                <div className="kura_tm_contact">
+                    <div className="container">
+                        <div className="kura_tm_main_title">
                             <span>Contact</span>
                             <h3>Get in Touch</h3>
                         </div>
-                        <div class="contact_inner">
+                        <div className="contact_inner">
                             <div
-                                class="left wow fadeInUp"
+                                className="left wow fadeInUp"
                                 data-wow-duration=".7s"
                             >
-                                <div class="text">
+                                <div className="text">
                                     <p>
                                         Please fill out the form on this section
                                         to contact with me. Or call between 9:00
@@ -23,10 +23,10 @@ const Contact = () => {
                                         Friday
                                     </p>
                                 </div>
-                                <div class="short">
+                                <div className="short">
                                     <ul>
                                         <li>
-                                            <div class="list_inner">
+                                            <div className="list_inner">
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     version="1.1"
@@ -38,7 +38,7 @@ const Contact = () => {
                                                         enableBackground:
                                                             "new 0 0 512 512",
                                                     }}
-                                                    class="svg replaced-svg"
+                                                    className="svg replaced-svg"
                                                 >
                                                     <g>
                                                         <g>
@@ -72,7 +72,7 @@ const Contact = () => {
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="list_inner">
+                                            <div className="list_inner">
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     version="1.1"
@@ -84,7 +84,7 @@ const Contact = () => {
                                                         enableBackground:
                                                             "new 0 0 512 512",
                                                     }}
-                                                    class="svg replaced-svg"
+                                                    className="svg replaced-svg"
                                                 >
                                                     <g>
                                                         <g>
@@ -113,15 +113,15 @@ const Contact = () => {
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="list_inner">
+                                            <div className="list_inner">
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     id="Capa_1"
-                                                    enable-background="new 0 0 479.058 479.058"
+                                                    enableBackground="new 0 0 479.058 479.058"
                                                     height="512"
                                                     viewBox="0 0 479.058 479.058"
                                                     width="512"
-                                                    class="svg replaced-svg"
+                                                    className="svg replaced-svg"
                                                 >
                                                     <path d="m434.146 59.882h-389.234c-24.766 0-44.912 20.146-44.912 44.912v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159l-200.355 173.649-200.356-173.649c1.769-.736 3.704-1.159 5.738-1.159zm0 299.411h-389.234c-8.26 0-14.971-6.71-14.971-14.971v-251.648l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"></path>
                                                 </svg>
@@ -129,7 +129,7 @@ const Contact = () => {
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="list_inner">
+                                            <div className="list_inner">
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     version="1.1"
@@ -141,7 +141,7 @@ const Contact = () => {
                                                         enableBackground:
                                                             "new 0 0 512 512",
                                                     }}
-                                                    class="svg replaced-svg"
+                                                    className="svg replaced-svg"
                                                 >
                                                     <g>
                                                         <g>
@@ -171,27 +171,27 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div
-                                class="right wow fadeInUp"
+                                className="right wow fadeInUp"
                                 data-wow-duration=".7s"
                             >
-                                <div class="fields">
+                                <div className="fields">
                                     <form
                                         action="/"
                                         method="post"
-                                        class="contact_form"
+                                        className="contact_form"
                                         id="contact_form"
-                                        autocomplete="off"
+                                        autoComplete="off"
                                     >
                                         <div
-                                            class="returnmessage"
+                                            className="returnmessage"
                                             data-success="Your message has been received, We will contact you soon."
                                         ></div>
-                                        <div class="empty_notice">
+                                        <div className="empty_notice">
                                             <span>
                                                 Please Fill Required Fields
                                             </span>
                                         </div>
-                                        <div class="first">
+                                        <div className="first">
                                             <ul>
                                                 <li>
                                                     <input
@@ -209,14 +209,14 @@ const Contact = () => {
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="last">
+                                        <div className="last">
                                             <textarea
                                                 id="message"
                                                 placeholder="Message"
                                             ></textarea>
                                         </div>
                                         <div
-                                            class="kura_tm_button"
+                                            className="kura_tm_button"
                                             data-position="left"
                                         >
                                             <a id="send_message" href="#">
@@ -224,11 +224,11 @@ const Contact = () => {
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     id="Layer"
-                                                    enable-background="new 0 0 64 64"
+                                                    enableBackground="new 0 0 64 64"
                                                     height="512"
                                                     viewBox="0 0 64 64"
                                                     width="512"
-                                                    class="svg replaced-svg"
+                                                    className="svg replaced-svg"
                                                 >
                                                     <path d="m37.379 12.552c-.799-.761-2.066-.731-2.827.069-.762.8-.73 2.066.069 2.828l15.342 14.551h-39.963c-1.104 0-2 .896-2 2s.896 2 2 2h39.899l-15.278 14.552c-.8.762-.831 2.028-.069 2.828.393.412.92.62 1.448.62.496 0 .992-.183 1.379-.552l17.449-16.62c.756-.755 1.172-1.759 1.172-2.828s-.416-2.073-1.207-2.862z"></path>
                                                 </svg>
