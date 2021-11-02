@@ -29,7 +29,7 @@ export default function Index() {
 
                 <Timeline />
 
-                <Price />
+                {/* <Price /> */}
 
                 {/* <News /> */}
 
