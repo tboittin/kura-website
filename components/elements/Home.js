@@ -1,19 +1,35 @@
 import React, { useState } from "react"
+
+import { HomeModal } from "./ContentModal"
+
 import HERO_CONTENT from "../../data/HERO_CONTENT.json"
 
-
 const Home = () => {
-  const [heroToggle, setHeroToggle] = useState("")
+  // const [heroToggle, setHeroToggle] = useState("")
+  const [open, setOpen] = useState(false)
+  const [modalValue, setModalValue] = useState({
+    img: null,
+    title: "",
+    description: []
+  })
+  const onOpenModal = (img, title, description) => {
+    setOpen(true)
+    setModalValue({ img, title, description })
+  }
+  const onCloseModal = () => {
+    setOpen(false)
+    setModalValue({ img: null, title: "" })
+  }
   return (
     <>
-      <div class='kura_tm_section' id='home'>
-        <div class='kura_tm_hero'>
-          <div class='container'>
-            <div class='content'>
-              <div class='left'>
-                <span class='name'>Thomas Boittin</span>
-                <h3 class='job'>Web Developer</h3>
-                <div class='services'>
+      <div className="kura_tm_section" id="home">
+        <div className="kura_tm_hero">
+          <div className="container">
+            <div className="content">
+              <div className="left">
+                <span className="name">Thomas Boittin</span>
+                <h3 className="job">Web Developer</h3>
+                <div className="services">
                   <ul>
                     {HERO_CONTENT.map(content => (
                       <>
@@ -21,86 +37,54 @@ const Home = () => {
                           <a
                             href
                             onClick={() => {
-                              heroToggle === content.keyword
-                                ? setHeroToggle('')
-                                : setHeroToggle(content.keyword)
+                              onOpenModal(`/img/hero/1.jpg`, content.title, content.description)
                             }}
                           >
                             <img
-                              class='image'
-                              src='/img/service/1.jpg'
-                              alt=''
+                              className="image"
+                              src="/img/service/1.jpg"
+                              alt=""
                             />
                             <span>{content.title}</span>
                             <img
-                              class='svg'
-                              src='/img/svg/right-arrow.svg'
-                              alt=''
+                              className="svg"
+                              src="/img/svg/right-arrow.svg"
+                              alt=""
                             />
                           </a>
-                          {/* <div class='hidden_content'> */}
-                            <div
-                              className={
-                                heroToggle === content.keyword
-                                  ? "popup_informations_open"
-                                  : "popup_informations_hidden"
-                              }
-                            >
-                              <div class='description'>
-                                {content.description.map(desc => (
-                                  <p>{desc}</p>
-                                ))}
-                              </div>
-                            </div>
-                          {/* </div> */}
                         </li>
                       </>
                     ))}
                   </ul>
                 </div>
-                <div class='short_info'>
-                  {/* <ul>
-                    <li>
-                      <div class='list_inner'>
-                        <h3>2</h3>
-                        <span>
-                          Years of
-                          <br />
-                          Experience
-                        </span>
-                      </div>
-                    </li>
-                    <li>
-                      <div class='list_inner'>
-                        <h3>3K+</h3>
-                        <span>
-                          Happy
-                          <br />
-                          Customers
-                        </span>
-                      </div>
-                    </li>
-                  </ul> */}
+                <div className="short_info">
                 </div>
               </div>
-              <div class='right'>
-                <div class='image'>
-                  <img src='/img/thumbs/3-4.jpg' alt='' />
+              <div className="right">
+                <div className="image">
+                  <img src="/img/thumbs/3-4.jpg" alt="" />
                   <div
-                    class='main'
+                    className="main"
                     style={{ backgroundImage: "url(img/hero/1.jpg)" }}
                   ></div>
-                  <div class='shape'></div>
+                  <div className="shape"></div>
                 </div>
               </div>
-              <div class='down anchor'>
-                <a href='#portfolio'>
-                  <img class='svg' src='/img/svg/down-arrow.svg' alt='' />
+              <div className="down anchor">
+                <a href="#portfolio">
+                  <img className="svg" src="/img/svg/down-arrow.svg" alt="" />
                 </a>
               </div>
             </div>
           </div>
         </div>
+        <HomeModal
+          open={open}
+          onCloseModal={() => onCloseModal()}
+          img={modalValue.img}
+          title={modalValue.title}
+          description={modalValue.description}
+        />
       </div>
     </>
   )
