@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import dynamic from "next/dynamic";
 import LightBox from "react-awesome-lightbox";
+
 import "react-awesome-lightbox/build/style.css";
+
+import IMAGES from '../../data/PORTFOLIO_IMAGES.json'
 
 // const ModalVideo = dynamic(import("react-modal-video"), {
 //     ssr: false,
@@ -13,46 +16,6 @@ import SwiperCore, { Pagination, Navigation } from "swiper";
 
 // install Swiper modules
 SwiperCore.use([Pagination, Navigation]);
-
-const IMAGES = [
-    {
-        src: "/img/portfolio/1.jpg",
-        thumbnail: "/img/portfolio/1.jpg",
-        title: "Magic Art",
-        sub: "Image",
-    },
-    {
-        src: "/img/portfolio/2.jpg",
-        thumbnail: "/img/portfolio/2.jpg",
-        title: "Bona Green",
-        sub: "Image",
-    },
-
-    {
-        src: "/img/portfolio/3.jpg",
-        thumbnail: "/img/portfolio/3.jpg",
-        title: "Leo Dandora",
-        sub: "Image",
-    },
-    {
-        src: "/img/portfolio/4.jpg",
-        thumbnail: "/img/portfolio/4.jpg",
-        title: "Folio Grasia",
-        sub: "Image",
-    },
-    {
-        src: "/img/portfolio/5.jpg",
-        thumbnail: "/img/portfolio/5.jpg",
-        title: "Viva Mercury",
-        sub: "Image",
-    },
-    {
-        src: "/img/portfolio/6.jpg",
-        thumbnail: "/img/portfolio/6.jpg",
-        title: "Santa Onera",
-        sub: "Image",
-    },
-];
 
 const Portfolio = () => {
     const [showLight, setShowLight] = useState(null);
