@@ -1,0 +1,22 @@
+[
+  {
+    "keyword": "location",
+    "icon": "./img/svg/placeholder.svg",
+    "text": "44 Place, Tokyo, Japan"
+  },
+  {
+    "keyword": "phone",
+    "icon": "./img/svg/phone.svg",
+    "text": "+33 6 23 39 79 78"
+  },
+  {
+    "keyword": "mail",
+    "icon": "./img/svg/mail.svg",
+    "text": "tboittin@gmail.com"
+  },
+  {
+    "keyword": "domain",
+    "icon": "./img/svg/globe.svg",
+    "text": "tboittin.vercel.app"
+  }
+]
