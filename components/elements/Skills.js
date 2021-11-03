@@ -126,11 +126,10 @@ const Skills = () => {
                                     data-speed="0"
                                     style={{
                                         backgroundImage:
-                                            "url(/img/skills/Ming_Shan_Digital_Experience_LO2LVVZS4Y.jpg)",
+                                            "url(/img/skills/ming-shan-vertical.jpg)",
                                         backgroundAttachment:
                                             "fixed",
-                                        backgroundPositionX: "450px",
-                                        backgroundPositionY: "100px"
+                                        backgroundPositionX: "450px"
                                     }}
                                 ></div>
                             </div>
