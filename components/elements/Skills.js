@@ -120,13 +120,17 @@ const Skills = () => {
 
                             </div>
                             <div className="right">
-                                <ParallaxVideo />
+                                {/* <ParallaxVideo /> */}
                                 <div
                                     className="my_image jarallax"
                                     data-speed="0"
                                     style={{
                                         backgroundImage:
-                                            "url(/img/portfolio/2.jpg)",
+                                            "url(/img/skills/Ming_Shan_Digital_Experience_LO2LVVZS4Y.jpg)",
+                                        backgroundAttachment:
+                                            "fixed",
+                                        backgroundPositionX: "450px",
+                                        backgroundPositionY: "100px"
                                     }}
                                 ></div>
                             </div>
