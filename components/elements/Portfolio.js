@@ -72,8 +72,8 @@ const Portfolio = () => {
                                             },
                                         }}
                                     >
-                                        {IMAGES.map((image, index) => (
-                                                <SwiperSlide className="swiper-slide" key={index}>
+                                        {IMAGES.map((image) => (
+                                                <SwiperSlide className="swiper-slide" key={image.keyword}>
                                                     <div className="list_inner">
                                                         <div className="image">
                                                             <img
