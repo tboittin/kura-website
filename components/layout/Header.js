@@ -42,7 +42,7 @@ const Header = () => {
                     <div className="topbar_inner">
                         <div className="logo">
                             <a href="#">
-                                <img src="/img/logo/dark.png" alt="" />
+                                <img src="/img/svg/Logo-Base.svg" alt="" />
                             </a>
                         </div>
                         <div className="menu">
@@ -99,7 +99,7 @@ const Header = () => {
                     <div className="mobile_in">
                         <div className="logo">
                             <a href="#">
-                                <img src="/img/logo/dark.png" alt="" />
+                                <img src="/img/svg/Logo-Base.svg" alt="" />
                             </a>
                         </div>
                         <div className="trigger" onClick={toggleTrueFalse}>
@@ -132,12 +132,12 @@ const Header = () => {
                             <li>
                                 <a href="#timeline">Timeline</a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="#price">Price</a>
                             </li>
                             <li>
                                 <a href="#news">News</a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a href="#contact">Contact</a>
                             </li>
