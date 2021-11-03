@@ -65,9 +65,9 @@ export const HomeModal = ({
               <h3>{title ? title : `VS Code Gets New JavaScript Debugger`}</h3>
               <div></div>
             </div>
-            <div class="hidden_content">
-              <div class="popup_informations">
-                <div class="description">
+            <div className="hidden_content">
+              <div className="popup_informations">
+                <div className="description">
                   {description && description.map(desc => <p>{desc}</p>)}
                 </div>
               </div>
