@@ -1161,14 +1161,15 @@ body.opened .kura_tm_hero .down {
 }
 .kura_tm_skills .left h4{
     color: #fff;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .kura_tm_skills .text {
     width: 100%;
     float: left;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 44px;
+    margin-left: 10px;
 }
 .kura_tm_skills .text p {
     color: #bbb;

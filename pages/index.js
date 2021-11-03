@@ -1,10 +1,10 @@
 import Contact from "../components/elements/Contact";
 import Home from "../components/elements/Home";
-// import News from "../components/elements/News";
 import Portfolio from "../components/elements/Portfolio";
-import Price from "../components/elements/Price";
 import Skills from "../components/elements/Skills";
 import Timeline from "../components/elements/Timeline";
+// import News from "../components/elements/News";
+// import Price from "../components/elements/Price";
 import Footer from "../components/layout/Footer";
 import Header from "../components/layout/Header";
 
@@ -29,9 +29,9 @@ export default function Index() {
 
                 <Timeline />
 
-                {/* <Price /> */}
+                {/* <Price />
 
-                {/* <News /> */}
+                <News /> */}
 
                 <Contact />
 
