@@ -1156,8 +1156,13 @@ body.opened .kura_tm_hero .down {
     z-index: 3;
 }
 .kura_tm_skills .left {
-    width: 60%;
+    width: 80%;
     padding-right: 200px;
+}
+.kura_tm_skills .left h4{
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 .kura_tm_skills .text {
     width: 100%;

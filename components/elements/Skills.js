@@ -56,12 +56,12 @@ const Skills = () => {
                                     </p>
                                 </div>
                                 {SKILLS && 
-                                    <div>
-                                        <h2>Languages</h2>
+                                    <div className="skills-pills">
+                                        <h4>Languages</h4>
                                             {SKILLS.languages.map(skill => <Pill text={skill} key={skill}/>)}
-                                        <h2>Tools</h2>
+                                        <h4>Tools</h4>
                                             {SKILLS.tools.map(skill => <Pill text={skill} key={skill}/>)}
-                                        <h2>Soft Skills</h2>
+                                        <h4>Soft Skills</h4>
                                             {SKILLS.softSkills.map(skill => <Pill text={skill} key={skill}/>)}
                                     </div>
                                 }
