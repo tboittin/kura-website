@@ -1,39 +1,57 @@
 [
   {
-      "src": "/img/portfolio/1.jpg",
-      "thumbnail": "/img/portfolio/1.jpg",
-      "title": "Magic Art",
-      "sub": "Image"
+    "src": "/img/portfolio/QSIE.png",
+    "thumbnail": "/img/portfolio/QSIE.png",
+    "title": "Qui Sont-Iels ?",
+    "sub": "Image"
   },
   {
-      "src": "/img/portfolio/2.jpg",
-      "thumbnail": "/img/portfolio/2.jpg",
-      "title": "Bona Green",
-      "sub": "Image"
+    "src": "/img/portfolio/Next-portfolio.png",
+    "thumbnail": "/img/portfolio/Next-portfolio.png",
+    "title": "Next Portfolio",
+    "sub": "Image"
   },
 
   {
-      "src": "/img/portfolio/3.jpg",
-      "thumbnail": "/img/portfolio/3.jpg",
-      "title": "Leo Dandora",
-      "sub": "Image"
+    "src": "/img/portfolio/react-portfolio.png",
+    "thumbnail": "/img/portfolio/react-portfolio.png",
+    "title": "React Portfolio",
+    "sub": "Image"
   },
   {
-      "src": "/img/portfolio/4.jpg",
-      "thumbnail": "/img/portfolio/4.jpg",
-      "title": "Folio Grasia",
-      "sub": "Image"
+    "src": "/img/portfolio/jamming.jpg",
+    "thumbnail": "/img/portfolio/jamming.jpg",
+    "title": "Jamming",
+    "sub": "Image"
   },
   {
-      "src": "/img/portfolio/5.jpg",
-      "thumbnail": "/img/portfolio/5.jpg",
-      "title": "Viva Mercury",
-      "sub": "Image"
+    "src": "/img/portfolio/ravenous.jpg",
+    "thumbnail": "/img/portfolio/ravenous.jpg",
+    "title": "Ravenous",
+    "sub": "Image"
   },
   {
-      "src": "/img/portfolio/6.jpg",
-      "thumbnail": "/img/portfolio/6.jpg",
-      "title": "Santa Onera",
-      "sub": "Image"
+    "src": "/img/portfolio/freelancer.jpg",
+    "thumbnail": "/img/portfolio/freelancer.jpg",
+    "title": "Freelancer Theme",
+    "sub": "Image"
+  },
+  {
+    "src": "/img/portfolio/FitActive.png",
+    "thumbnail": "/img/portfolio/FitActive.png",
+    "title": "FitActive WordPress website",
+    "sub": "Image"
+  },
+  {
+    "src": "/img/portfolio/excursion.jpg",
+    "thumbnail": "/img/portfolio/excursion.jpg",
+    "title": "Excursion",
+    "sub": "Image"
+  },
+  {
+    "src": "/img/portfolio/colmar.jpg",
+    "thumbnail": "/img/portfolio/colmar.jpg",
+    "title": "Colmar Academy",
+    "sub": "Image"
   }
 ]
