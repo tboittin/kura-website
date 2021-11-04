@@ -15,11 +15,11 @@ const Contact = () => {
             <div className="contact_inner">
               <div className="left wow fadeInUp" data-wow-duration=".7s">
                 <div className="text">
-                  <p>
+                  {/* <p>
                     Please fill out the form on this section to contact with me.
                     Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through
                     Friday
-                  </p>
+                  </p> */}
                 </div>
                 <div className="short">
                   <ul>
