@@ -4,14 +4,16 @@
     "thumbnail": "/img/portfolio/QSIE.png",
     "title": "Qui Sont-Iels ?",
     "keyword": "qsie",
-    "sub": "Image"
+    "sub": "Image",
+    "link": "https://qsie-client.vercel.app/"
   },
   {
     "src": "/img/portfolio/Next-portfolio.png",
     "thumbnail": "/img/portfolio/Next-portfolio.png",
     "title": "Next Portfolio",
     "keyword": "next",
-    "sub": "Image"
+    "sub": "Image",
+    "link": "https://tboittin.vercel.app/"
   },
 
   {
@@ -19,7 +21,8 @@
     "thumbnail": "/img/portfolio/react-portfolio.png",
     "title": "React Portfolio",
     "keyword": "react",
-    "sub": "Image"
+    "sub": "Image",
+    "link": "https://tboittin.github.io/"
   },
   {
     "src": "/img/portfolio/jamming.jpg",
