@@ -3,8 +3,9 @@
     "title": "Web Development",
     "description": [
       "ReactJS & NextJS Front End Developer, my goal is to deliver the web application that fit the most my client expectations.",
-      "Always looking for new challenges I an always improving my practices using the last technologies out there."
+      "Always looking for new challenges I am always improving my practices using the last technologies out there."
     ],
+    "image": "img/hero/dev.png",
     "keyword": "web"
   },
   {
@@ -13,6 +14,7 @@
       "An educated understanding of design can be the difference between a mediocre and a great web application.",
       "My previous experiences working for and with designers combined with online courses allow me to offer improved user insterface with a better visual appearance."
     ],
+    "image": "img/hero/graph.png",
     "keyword": "graph"
   }
 ]

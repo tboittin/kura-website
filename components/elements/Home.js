@@ -36,7 +36,7 @@ const Home = () => {
                           href='#'
                           onClick={() => {
                             onOpenModal(
-                              `/img/hero/1.jpg`,
+                              content.image,
                               content.title,
                               content.description
                             )
