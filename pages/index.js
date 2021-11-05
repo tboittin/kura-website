@@ -14,8 +14,8 @@ export default function Index() {
   const pageTitle = "Thomas Boittin - Front End Developer"
   const description =
     "Thomas Boittin - Portfolio. French developer enthusiast with graphic skills."
-    const currentURL= "https://kura-website.vercel.app/"
-    const previewImage = "img/hero/1.jpg"
+  const currentURL = "https://kura-website.vercel.app/"
+  const previewImage = "img/hero/1.jpg"
   return (
     <div id="opened">
       <div className="kura_tm_all_wrap" data-color="orange">
@@ -28,11 +28,18 @@ export default function Index() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta charSet="utf-8" />
           <meta name="description" content={description} />
+
           <meta property="og:title" content={pageTitle} key="ogtitle" />
           <meta property="og:description" content={description} key="ogdesc" />
           <meta property="og:url" content={currentURL} key="ogurl" />
           <meta property="og:image" content={previewImage} key="ogimage" />
           <meta property="og:site_name" content={pageTitle} key="ogsitename" />
+          
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:description" content={description} />
+          <meta name="twitter:image" content={previewImage} />
+          <meta name="twitter:image:alt" content={pageTitle} />
+
         </Head>
 
         <Header />
