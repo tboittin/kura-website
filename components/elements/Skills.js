@@ -126,7 +126,7 @@ const Skills = () => {
                                     data-speed="0"
                                     style={{
                                         backgroundImage:
-                                            "url(/img/skills/ming-shan-vertical.jpg)",
+                                            "url(/img/ming-shan-vertical.jpg)",
                                         backgroundAttachment:
                                             "fixed",
                                         backgroundPositionX: "450px"

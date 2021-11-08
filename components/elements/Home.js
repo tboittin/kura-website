@@ -67,7 +67,7 @@ const Home = () => {
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(img/skills/ming-shan-vertical.jpg)",
+                      backgroundImage: "url(/img/ming-shan-vertical.jpg)",
                       backgroundAttachment: "fixed",
                       backgroundPositionX: "500px",
                       backgroundPositionY: "-900px",
