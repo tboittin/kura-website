@@ -817,6 +817,10 @@ body.opened .kura_tm_hero .content .right {
 }
 body.opened .kura_tm_hero .content .right .image .main {
   transform: rotate(7deg);
+  background-image: url("/img/ming-shan-vertical.jpg");
+  background-attachment: fixed;
+  background-position-x: 500px;
+  background-position-y: -1700px;
 }
 .kura_tm_hero .content .right .image .shape {
   position: absolute;
@@ -996,7 +1000,6 @@ body.opened .kura_tm_hero .down {
 }
 .kura_tm_portfolio .portfolio_list .external-link a {
   text-decoration: none;
-
 }
 .kura_tm_portfolio .portfolio_list .image .svg {
   position: absolute;
@@ -2304,6 +2307,19 @@ body.dark .kura_tm_settings .cursor li .svg,
 /*---------------------------------------------------*/
 /*	13) KURA MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
+@media (max-width: 2400px) {
+  body.opened .kura_tm_hero .content .right .image .main {
+    background-position-x: 500px;
+    background-position-y: -1250px;
+  }
+}
+
+@media (max-width: 1700px) {
+  body.opened .kura_tm_hero .content .right .image .main {
+    background-position-x: 500px;
+    background-position-y: -520px;
+  }
+}
 
 @media (max-width: 1400px) {
   .container {
@@ -2357,7 +2373,11 @@ body.dark .kura_tm_settings .cursor li .svg,
   }
   body.opened .kura_tm_hero .content .right .image .main {
     transform: rotate(0deg);
+    background-position-x: 0px;
+    background-position-y: -130px;
+    background-attachment: inherit;
   }
+
   .kura_tm_hero .job {
     font-size: 35px;
   }
@@ -2415,6 +2435,10 @@ body.dark .kura_tm_settings .cursor li .svg,
   }
   .kura_tm_hero .short_info ul li span {
     font-size: 13px;
+  }
+  body.opened .kura_tm_hero .content .right .image .main {
+    background-position-x: 0px;
+    background-position-y: 0px;
   }
   .kura_tm_portfolio .portfolio_list .image .svg {
     width: 35px;
@@ -2485,6 +2509,12 @@ body.dark .kura_tm_settings .cursor li .svg,
   }
   .kura_tm_modalbox .news_popup_informations .details h3 {
     font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  body.opened .kura_tm_hero .content .right .image .main {
+    background-position-x: 0px;
+    background-position-y: 0px;
   }
 }
 

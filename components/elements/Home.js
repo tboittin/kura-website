@@ -45,7 +45,6 @@ const Home = () => {
                           <img
                             className="image"
                             src="/img/service/1.jpg"
-                            // src="img/skills/ming-shan-vertical.jpg"
                             alt=""
                           />
                           <span>{content.title}</span>
@@ -66,12 +65,6 @@ const Home = () => {
                   <img src="/img/thumbs/3-4.jpg" alt="" />
                   <div
                     className="main"
-                    style={{
-                      backgroundImage: "url(/img/ming-shan-vertical.jpg)",
-                      backgroundAttachment: "fixed",
-                      backgroundPositionX: "500px",
-                      backgroundPositionY: "-900px",
-                    }}
                   ></div>
                   <div className="shape"></div>
                 </div>
