@@ -2317,7 +2317,7 @@ body.dark .kura_tm_settings .cursor li .svg,
 @media (max-width: 1700px) {
   body.opened .kura_tm_hero .content .right .image .main {
     background-position-x: 500px;
-    background-position-y: -520px;
+    background-position-y: -800px;
   }
 }
 
