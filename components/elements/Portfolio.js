@@ -29,6 +29,7 @@ const Portfolio = () => {
   const hideLightBox = () => {
     setShowLight(null)
   }
+  
   return (
     <div>
       <div className="kura_tm_section" id="portfolio">
@@ -149,7 +150,7 @@ const Portfolio = () => {
         <LightBox
           images={IMAGES.map(img => ({
             url: img.src,
-            title: img.title,
+            title: img.title
           }))}
           startIndex={showLight.startIndex}
           onClose={hideLightBox}
