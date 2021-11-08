@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import Pill from '../design/pill'
 
 import SKILLS from '../../data/SKILLS.json'
+import IMG_CREDIT from "../../data/IMG_CREDIT.json"
 
 
 const ParallaxVideo = dynamic(import("./Parallax"), {
@@ -24,8 +25,6 @@ const Skills = () => {
 
             boxes.forEach((box) => {
                 const boxTop = box.getBoundingClientRect().top;
-
-                // console.log(boxTop);
 
                 if (boxTop < triggerBottom) {
                     box.classList.add("open");
@@ -124,6 +123,7 @@ const Skills = () => {
                                 <div
                                     className="my_image jarallax"
                                     data-speed="0"
+                                    title={IMG_CREDIT["ming-shan-vertical"]}
                                     style={{
                                         backgroundImage:
                                             "url(/img/ming-shan-vertical.jpg)",

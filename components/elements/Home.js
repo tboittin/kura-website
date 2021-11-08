@@ -3,6 +3,7 @@ import React, { useState } from "react"
 import { HomeModal } from "./ContentModal"
 
 import HERO_CONTENT from "../../data/HERO_CONTENT.json"
+import IMG_CREDIT from "../../data/IMG_CREDIT.json"
 
 const Home = () => {
   const [open, setOpen] = useState(false)
@@ -65,6 +66,7 @@ const Home = () => {
                   <img src="/img/thumbs/3-4.jpg" alt="" />
                   <div
                     className="main"
+                    title={IMG_CREDIT["ming-shan-vertical"]}
                   ></div>
                   <div className="shape"></div>
                 </div>
