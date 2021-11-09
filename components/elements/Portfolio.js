@@ -1,6 +1,9 @@
 import React, { useState } from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
+
 import dynamic from "next/dynamic"
+import Image from "next/image"
+
 import LightBox from "react-awesome-lightbox"
 
 import "react-awesome-lightbox/build/style.css"
@@ -29,7 +32,7 @@ const Portfolio = () => {
   const hideLightBox = () => {
     setShowLight(null)
   }
-  
+
   return (
     <div>
       <div className="kura_tm_section" id="portfolio">
@@ -78,15 +81,23 @@ const Portfolio = () => {
                         <SwiperSlide className="swiper-slide">
                           <div className="list_inner">
                             <div className="image">
-                              <img
+                              {/* <img
                                 src="/img/portfolio/410-460.jpg"
                                 alt={image.sub}
-                              />
+                              /> */}
+                              <div className="thumbnail">
+                                <Image
+                                  src={image.src}
+                                  alt={image.sub}
+                                  height="460px"
+                                  width="410px"
+                                />
+                              </div>
                               <div
                                 className="main"
-                                style={{
-                                  backgroundImage: "url(" + image.src + ")",
-                                }}
+                                // style={{
+                                //   backgroundImage: "url(" + image.src + ")",
+                                // }}
                               ></div>
                               <div className="overlay"></div>
                               <img
@@ -150,7 +161,7 @@ const Portfolio = () => {
         <LightBox
           images={IMAGES.map(img => ({
             url: img.src,
-            title: img.title
+            title: img.title,
           }))}
           startIndex={showLight.startIndex}
           onClose={hideLightBox}
