@@ -32,7 +32,13 @@ const Contact = () => {
                               alt=""
                               className="svg replaced-svg"
                             />
-                            <span>{info.text}</span>
+                            {info.link ? (
+                              <a href={info.link} target="_blank">
+                                <span>{info.text}</span>
+                              </a>
+                            ) : (
+                              <span>{info.text}</span>
+                            )}
                           </div>
                         </li>
                       ))}

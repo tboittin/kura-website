@@ -936,7 +936,7 @@ body.opened .kura_tm_hero .down {
   min-width: 100%;
   /* opacity: 0; */
 }
-.kura_tm_portfolio .portfolio_list .image .thumbnail img{
+.kura_tm_portfolio .portfolio_list .image .thumbnail img {
   object-fit: cover;
   padding: 0;
   border-radius: 10px;
@@ -1680,11 +1680,15 @@ body.opened .kura_tm_hero .down {
   transform: translateY(-50%);
   color: #ff4522;
 }
+.kura_tm_contact .short ul li .list_inner a {
+  text-decoration: none;
+}
 .kura_tm_contact .short ul li .list_inner span {
   font-size: 18px;
   color: #000;
   font-family: "Poppins";
 }
+
 .kura_tm_contact .right {
   width: 50%;
   padding-left: 100px;
