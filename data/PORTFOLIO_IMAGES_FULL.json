@@ -39,5 +39,33 @@
     "keyword": "ravenous",
     "sub": "Image",
     "link": "https://ravenous-zeta.vercel.app/"
+  },
+  {
+    "src": "/img/portfolio/freelancer.jpg",
+    "thumbnail": "/img/portfolio/freelancer.jpg",
+    "title": "Freelancer Theme",
+    "keyword": "freelancer",
+    "sub": "Image"
+  },
+  {
+    "src": "/img/portfolio/FitActive.png",
+    "thumbnail": "/img/portfolio/FitActive.png",
+    "title": "FitActive WordPress website",
+    "keyword": "fitactive",
+    "sub": "Image"
+  },
+  {
+    "src": "/img/portfolio/excursion.jpg",
+    "thumbnail": "/img/portfolio/excursion.jpg",
+    "title": "Excursion",
+    "keyword": "excursion",
+    "sub": "Image"
+  },
+  {
+    "src": "/img/portfolio/colmar.jpg",
+    "thumbnail": "/img/portfolio/colmar.jpg",
+    "title": "Colmar Academy",
+    "keyword": "colmar",
+    "sub": "Image"
   }
 ]
