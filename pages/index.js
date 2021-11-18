@@ -1,4 +1,5 @@
 import Head from "next/head"
+import { useRouter } from "next/router"
 
 import Contact from "../components/elements/Contact"
 import Home from "../components/elements/Home"
@@ -10,12 +11,24 @@ import Timeline from "../components/elements/Timeline"
 import Footer from "../components/layout/Footer"
 import Header from "../components/layout/Header"
 
+import LANGUAGE_CONTENT from "../data/LANGUAGE_CONTENT.json"
+
 export default function Index() {
+
+  //locale is the language detected from browser
+  //locales are the languages included in the next.config.js
+  //defaultLocale is the language by default when the browser language is not included
+  const { locale } = useRouter();
+
   const pageTitle = "Thomas Boittin - Front End Developer"
   const description =
     "Thomas Boittin - Portfolio. French developer enthusiast with graphic skills."
-  const currentURL = "https://kura-website.vercel.app/"
+  const currentURL = "https://thomasboittin.com/"
   const previewImage = "img/hero/1.jpg"
+
+  const languageContent = LANGUAGE_CONTENT[locale]
+
+
   return (
     <div id="opened">
       <div className="kura_tm_all_wrap" data-color="orange">
@@ -34,31 +47,30 @@ export default function Index() {
           <meta property="og:url" content={currentURL} key="ogurl" />
           <meta property="og:image" content={previewImage} key="ogimage" />
           <meta property="og:site_name" content={pageTitle} key="ogsitename" />
-          
+
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:description" content={description} />
           <meta name="twitter:image" content={previewImage} />
           <meta name="twitter:image:alt" content={pageTitle} />
-
         </Head>
 
-        <Header />
+        <Header languageContent={languageContent} />
 
-        <Home />
+        <Home languageContent={languageContent} />
 
-        <Portfolio />
+        <Portfolio languageContent={languageContent} />
 
-        <Skills />
+        <Skills languageContent={languageContent} />
 
-        <Timeline />
+        <Timeline languageContent={languageContent} />
 
         {/* <Price />
 
-                <News /> */}
+        <News /> */}
 
-        <Contact />
+        <Contact languageContent={languageContent} />
 
-        <Footer />
+        <Footer languageContent={languageContent} />
 
         <audio id="audio1">
           <source src="/audio/1.mp3" />
