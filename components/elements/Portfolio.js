@@ -20,7 +20,7 @@ import SwiperCore, { Pagination, Navigation } from "swiper"
 // install Swiper modules
 SwiperCore.use([Pagination, Navigation])
 
-const Portfolio = () => {
+const Portfolio = ({ languageContent, locale }) => {
   const [showLight, setShowLight] = useState(null)
 
   const showLightBox = index => {
@@ -40,7 +40,7 @@ const Portfolio = () => {
           <div className="container">
             <div className="kura_tm_main_title">
               <span>Portfolio</span>
-              <h3>Selected Works</h3>
+              <h3>{languageContent.portfolioSubtitle}</h3>
             </div>
             <div
               className="portfolio_list gallery_zoom wow fadeInUp"
@@ -107,7 +107,7 @@ const Portfolio = () => {
                               />
                               <div className="details">
                                 <h3>{image.title}</h3>
-                                <span>{image.sub}</span>
+                                <span>{image.sub[locale]}</span>
                               </div>
                             </div>
                             <a
@@ -118,7 +118,7 @@ const Portfolio = () => {
                           {image.link && (
                             <div className="external-link">
                               <a href={image.link} target="_blank">
-                                External link
+                                {languageContent.externalLink}
                               </a>
                             </div>
                           )}

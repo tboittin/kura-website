@@ -992,6 +992,7 @@ body.opened .kura_tm_hero .down {
 .kura_tm_portfolio .portfolio_list .list_inner:hover .details {
   opacity: 1;
   visibility: visible;
+  margin-right: 20px;
 }
 .kura_tm_portfolio .portfolio_list .details h3 {
   font-size: 20px;

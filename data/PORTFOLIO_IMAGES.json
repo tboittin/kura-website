@@ -4,7 +4,10 @@
     "thumbnail": "/img/portfolio/QSIE.png",
     "title": "Qui Sont-Iels ?",
     "keyword": "qsie",
-    "sub": "Image",
+    "sub": {
+      "en-US" : "Qui sont-iels is a game of deduction that attempts to change the discussion on gender and orientation stereotypes. The game is made with React.js & node.js using socket.io for players interactions.",
+      "fr" : "Qui sont-iels est un jeu de déduction qui tente de changer la discussion sur les stéréotypes de genre et d'orientation. Le jeu est réalisé avec React.js & node.js en utilisant socket.io pour les interactions entre les joueurs."
+    },
     "link": "https://qsie-client.vercel.app/"
   },
   {
@@ -12,7 +15,10 @@
     "thumbnail": "/img/portfolio/Next-portfolio.png",
     "title": "Next Portfolio",
     "keyword": "next",
-    "sub": "Image",
+    "sub": {
+      "en-US" : "A previous portfolio version, made with Next.js during the Philipp Jerga Udemy's course & improved to make it responsive.",
+      "fr" : "Une version antérieure du portfolio, réalisée avec Next.js pendant le cours Udemy de Philipp Jerga et amélioré pour le rendre responsif."
+    },
     "link": "https://tboittin.vercel.app/"
   },
 
@@ -21,7 +27,10 @@
     "thumbnail": "/img/portfolio/react-portfolio.png",
     "title": "React Portfolio",
     "keyword": "react",
-    "sub": "Image",
+    "sub": {
+      "en-US" : "A Create React App made from the freelancer portfolio template. Using HTML&CSS, Bootstrap and various js libraries.",
+      "fr" : "Une application React (CRA) créée à partir du modèle freelancer portfolio. Conçu avec HTML&CSS, Bootstrap et diverses bibliothèques js."
+    },
     "link": "https://tboittin.github.io/"
   },
   {
@@ -29,7 +38,10 @@
     "thumbnail": "/img/portfolio/jamming.jpg",
     "title": "Jamming",
     "keyword": "jamming",
-    "sub": "Image",
+    "sub": {
+      "en-US" : "A project which enable Spotify users to create a playlist by accessing the Spotify library.",
+      "fr" : "Un projet qui permet aux utilisateurs de Spotify de créer une liste de lecture en accédant à la bibliothèque de Spotify."
+    },
     "link": "https://jamming-wheat.vercel.app/"
   },
   {
@@ -37,7 +49,10 @@
     "thumbnail": "/img/portfolio/ravenous.jpg",
     "title": "Ravenous",
     "keyword": "ravenous",
-    "sub": "Image",
+    "sub": {
+      "en-US" : "A clone of Yelp. A CodeCademy course project using the Yelp API.",
+      "fr" : "Un clone de Yelp. Un projet du cours CodeCademy utilisant l'API de Yelp."
+    },
     "link": "https://ravenous-zeta.vercel.app/"
   }
 ]

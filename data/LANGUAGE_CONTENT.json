@@ -1,10 +1,14 @@
 {
   "fr": {
     "greeting": "salut",
-    "job": "Développeur Web"
+    "job": "Développeur Web",
+    "portfolioSubtitle": "Projets précédents",
+    "externalLink": "Lien Externe"
   },
   "en-US": {
     "greeting": "hello",
-    "job": "Web Developer"
+    "job": "Web Developer",
+    "portfolioSubtitle": "Selected Works",
+    "externalLink": "External Link"
   }
 }
