@@ -2,15 +2,15 @@ import React from "react"
 
 import CONTACT from "../../data/CONTACT.json"
 
-const Contact = () => {
+const Contact = ({ languageContent, locale }) => {
   return (
     <div>
       <div className="kura_tm_section" id="contact">
         <div className="kura_tm_contact">
           <div className="container">
             <div className="kura_tm_main_title">
-              <span>Contact</span>
-              <h3>Get in Touch</h3>
+              <span>{languageContent.contactTitle}</span>
+              <h3>{languageContent.contactSubtitle}</h3>
             </div>
             <div className="contact_inner">
               <div className="left wow fadeInUp" data-wow-duration=".7s">
@@ -64,19 +64,19 @@ const Contact = () => {
                     <div className="first">
                       <ul>
                         <li>
-                          <input id="name" type="text" placeholder="Name" />
+                          <input id="name" type="text" placeholder={languageContent.contactFormPlaceholderName} />
                         </li>
                         <li>
-                          <input id="email" type="text" placeholder="Email" />
+                          <input id="email" type="text" placeholder={languageContent.contactFormPlaceholderEmail} />
                         </li>
                       </ul>
                     </div>
                     <div className="last">
-                      <textarea id="message" placeholder="Message"></textarea>
+                      <textarea id="message" placeholder={languageContent.contactFormPlaceholderMessage}></textarea>
                     </div>
                     <div className="kura_tm_button" data-position="left">
                       <a id="send_message" href="#">
-                        <span>Submit</span>
+                        <span>{languageContent.contactFormSubmit}</span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           id="Layer"

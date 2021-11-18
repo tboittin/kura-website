@@ -9,7 +9,13 @@
     "skillTools": "Outils",
     "skillSoftSkills": "Soft Skills",
     "timelineTitle": "Chronologie",
-    "timelineSubtitle" : "Expériences professionnelles"
+    "timelineSubtitle" : "Expériences professionnelles",
+    "contactTitle": "Contact",
+    "contactSubtitle": "Me contacter",
+    "contactFormPlaceholderName": "Nom",
+    "contactFormPlaceholderEmail": "Email",
+    "contactFormPlaceholderMessage": "Message",
+    "contactFormSubmit": "Envoyer"
   },
   "en-US": {
     "job": "Web Developer",
@@ -21,6 +27,12 @@
     "skillTools": "Tools",
     "skillSoftSkills": "Soft Skills",
     "timelineTitle": "Timeline",
-    "timelineSubtitle" : "Working Period"
+    "timelineSubtitle" : "Working Period",
+    "contactTitle": "Contact",
+    "contactSubtitle": "Get in Touch",
+    "contactFormPlaceholderName": "Name",
+    "contactFormPlaceholderEmail": "Email",
+    "contactFormPlaceholderMessage": "Message",
+    "contactFormSubmit": "Submit"
   }
 }
