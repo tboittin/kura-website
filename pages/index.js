@@ -19,13 +19,13 @@ export default function Index() {
   //defaultLocale is the language by default when the browser language is not included
   const { locale } = useRouter()
 
-  const pageTitle = "Thomas Boittin - Front End Developer"
   const description =
-    "Thomas Boittin - Portfolio. French developer enthusiast with graphic skills."
+    "Thomas Boittin - Portfolio. Passionné de développement avec des compétences graphiques. French developer enthusiast with graphic skills."
   const currentURL = "https://thomasboittin.com/"
   const previewImage = "img/hero/1.jpg"
 
   const languageContent = LANGUAGE_CONTENT[locale]
+  const pageTitle = languageContent.pageTitle
 
   return (
     <div id="opened">

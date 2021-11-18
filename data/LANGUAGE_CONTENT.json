@@ -1,5 +1,6 @@
 {
   "fr": {
+    "pageTitle": "Thomas Boittin - Développeur Front-end",
     "job": "Développeur Web",
     "headerHome": "Accueil",
     "headerPortfolio": "Portfolio",
@@ -24,6 +25,7 @@
     "footerCopyright": "Copyright © 2021. Tous droits réservés."
   },
   "en-US": {
+    "pageTitle": "Thomas Boittin - Front End Developer",
     "job": "Web Developer",
     "headerHome": "Home",
     "headerPortfolio": "Portfolio",
