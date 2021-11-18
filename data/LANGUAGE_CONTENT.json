@@ -3,12 +3,22 @@
     "greeting": "salut",
     "job": "Développeur Web",
     "portfolioSubtitle": "Projets précédents",
-    "externalLink": "Lien Externe"
+    "externalLink": "Lien Externe",
+    "skillTitle": "Compétences et outils de programmation",
+    "skillSubtitle": "Voici quelques outils que j'utilise pour créer des applications web.",
+    "skillLanguages": "Langages",
+    "skillTools": "Outils",
+    "skillSoftSkills": "Soft Skills"
   },
   "en-US": {
     "greeting": "hello",
     "job": "Web Developer",
     "portfolioSubtitle": "Selected Works",
-    "externalLink": "External Link"
+    "externalLink": "External Link",
+    "skillTitle": "Programming Skills",
+    "skillSubtitle": "Here are some tools that I use to create web applications.",
+    "skillLanguages": "Languages",
+    "skillTools": "Tools",
+    "skillSoftSkills": "Soft Skills"
   }
 }
