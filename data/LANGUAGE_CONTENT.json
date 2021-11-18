@@ -1,8 +1,10 @@
 {
   "fr": {
-    "greeting": "salut"
+    "greeting": "salut",
+    "job": "Développeur Web"
   },
   "en-US": {
-    "greeting": "hello"
+    "greeting": "hello",
+    "job": "Web Developer"
   }
 }

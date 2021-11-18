@@ -1,20 +1,42 @@
-[
-  {
-    "title": "Web Development",
-    "description": [
-      "ReactJS & NextJS Front End Developer, my goal is to deliver the web application that fit the most my client expectations.",
-      "Always looking for new challenges I am always improving my practices using the last technologies out there."
-    ],
-    "image": "img/hero/dev.png",
-    "keyword": "web"
-  },
-  {
-    "title": "Graphic Design",
-    "description": [
-      "An educated understanding of design can be the difference between a mediocre and a great web application.",
-      "My previous experiences working for and with designers combined with online courses allow me to offer improved user insterface with a better visual appearance."
-    ],
-    "image": "img/hero/graph.png",
-    "keyword": "graph"
-  }
-]
+{
+  "fr": [
+    {
+      "title": "Développement Web",
+      "description": [
+        "Développeur Front End ReactJS & NextJS, mon objectif est de livrer l'application web qui correspond le plus aux attentes de mes clients.",
+        "Toujours à la recherche de nouveaux défis, j'améliore sans cesse mes pratiques en utilisant les dernières technologies existantes."
+      ],
+      "image": "img/hero/dev.png",
+      "keyword": "web"
+    },
+    {
+      "title": "Design graphique",
+      "description": [
+        "Une bonne compréhension du design peut faire la différence entre une application web médiocre et une excellente.",
+        "Mes précédentes expériences de travail pour et avec des designers, combinées à des cours en ligne, me permettent de proposer une interface utilisateur améliorée avec un meilleur aspect visuel."
+      ],
+      "image": "img/hero/graph.png",
+      "keyword": "graph"
+    }
+  ],
+  "en-US": [
+    {
+      "title": "Web Development",
+      "description": [
+        "ReactJS & NextJS Front End Developer, my goal is to deliver the web application that fit the most my client expectations.",
+        "Always looking for new challenges I am always improving my practices using the last technologies out there."
+      ],
+      "image": "img/hero/dev.png",
+      "keyword": "web"
+    },
+    {
+      "title": "Graphic Design",
+      "description": [
+        "An educated understanding of design can be the difference between a mediocre and a great web application.",
+        "My previous experiences working for and with designers combined with online courses allow me to offer improved user interface with a better visual appearance."
+      ],
+      "image": "img/hero/graph.png",
+      "keyword": "graph"
+    }
+  ]
+}

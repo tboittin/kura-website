@@ -14,11 +14,10 @@ import Header from "../components/layout/Header"
 import LANGUAGE_CONTENT from "../data/LANGUAGE_CONTENT.json"
 
 export default function Index() {
-
   //locale is the language detected from browser
   //locales are the languages included in the next.config.js
   //defaultLocale is the language by default when the browser language is not included
-  const { locale } = useRouter();
+  const { locale } = useRouter()
 
   const pageTitle = "Thomas Boittin - Front End Developer"
   const description =
@@ -27,7 +26,6 @@ export default function Index() {
   const previewImage = "img/hero/1.jpg"
 
   const languageContent = LANGUAGE_CONTENT[locale]
-
 
   return (
     <div id="opened">
@@ -54,23 +52,23 @@ export default function Index() {
           <meta name="twitter:image:alt" content={pageTitle} />
         </Head>
 
-        <Header languageContent={languageContent} />
+        <Header languageContent={languageContent} locale={locale} />
 
-        <Home languageContent={languageContent} />
+        <Home languageContent={languageContent} locale={locale} />
 
-        <Portfolio languageContent={languageContent} />
+        <Portfolio languageContent={languageContent} locale={locale} />
 
-        <Skills languageContent={languageContent} />
+        <Skills languageContent={languageContent} locale={locale} />
 
-        <Timeline languageContent={languageContent} />
+        <Timeline languageContent={languageContent} locale={locale} />
 
         {/* <Price />
 
         <News /> */}
 
-        <Contact languageContent={languageContent} />
+        <Contact languageContent={languageContent} locale={locale} />
 
-        <Footer languageContent={languageContent} />
+        <Footer languageContent={languageContent} locale={locale} />
 
         <audio id="audio1">
           <source src="/audio/1.mp3" />

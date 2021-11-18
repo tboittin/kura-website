@@ -5,7 +5,7 @@ import { HomeModal } from "./ContentModal"
 import HERO_CONTENT from "../../data/HERO_CONTENT.json"
 import IMG_CREDIT from "../../data/IMG_CREDIT.json"
 
-const Home = () => {
+const Home = ({ languageContent, locale }) => {
   const [open, setOpen] = useState(false)
   const [modalValue, setModalValue] = useState({
     img: null,
@@ -28,10 +28,10 @@ const Home = () => {
             <div className="content">
               <div className="left">
                 <span className="name">Thomas Boittin</span>
-                <h3 className="job">Web Developer</h3>
+                <h3 className="job">{languageContent.job}</h3>
                 <div className="services">
                   <ul>
-                    {HERO_CONTENT.map(content => (
+                    {HERO_CONTENT[locale].map(content => (
                       <li key={content.keyword}>
                         <a
                           href="#"
@@ -66,7 +66,7 @@ const Home = () => {
                   <img src="/img/thumbs/3-4.jpg" alt="" />
                   <div
                     className="main"
-                    title={IMG_CREDIT["ming-shan-vertical"]}
+                    title={IMG_CREDIT["ming-shan-vertical"][locale]}
                   ></div>
                   <div className="shape"></div>
                 </div>
