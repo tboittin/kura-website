@@ -2,7 +2,7 @@ import React from "react"
 
 import CONTACT from "../../data/CONTACT.json"
 
-const Contact = ({ languageContent, locale }) => {
+const Contact = ({ languageContent }) => {
   return (
     <div>
       <div className="kura_tm_section" id="contact">
@@ -64,15 +64,32 @@ const Contact = ({ languageContent, locale }) => {
                     <div className="first">
                       <ul>
                         <li>
-                          <input id="name" type="text" placeholder={languageContent.contactFormPlaceholderName} />
+                          <input
+                            id="name"
+                            type="text"
+                            placeholder={
+                              languageContent.contactFormPlaceholderName
+                            }
+                          />
                         </li>
                         <li>
-                          <input id="email" type="text" placeholder={languageContent.contactFormPlaceholderEmail} />
+                          <input
+                            id="email"
+                            type="text"
+                            placeholder={
+                              languageContent.contactFormPlaceholderEmail
+                            }
+                          />
                         </li>
                       </ul>
                     </div>
                     <div className="last">
-                      <textarea id="message" placeholder={languageContent.contactFormPlaceholderMessage}></textarea>
+                      <textarea
+                        id="message"
+                        placeholder={
+                          languageContent.contactFormPlaceholderMessage
+                        }
+                      ></textarea>
                     </div>
                     <div className="kura_tm_button" data-position="left">
                       <a id="send_message" href="#">

@@ -15,7 +15,8 @@
     "contactFormPlaceholderName": "Nom",
     "contactFormPlaceholderEmail": "Email",
     "contactFormPlaceholderMessage": "Message",
-    "contactFormSubmit": "Envoyer"
+    "contactFormSubmit": "Envoyer",
+    "footerCopyright": "Copyright © 2021. Tous droits réservés."
   },
   "en-US": {
     "job": "Web Developer",
@@ -33,6 +34,7 @@
     "contactFormPlaceholderName": "Name",
     "contactFormPlaceholderEmail": "Email",
     "contactFormPlaceholderMessage": "Message",
-    "contactFormSubmit": "Submit"
+    "contactFormSubmit": "Submit",
+    "footerCopyright": "Copyright © 2021. All rights reserved."
   }
 }

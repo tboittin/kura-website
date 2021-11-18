@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = ({ languageContent, locale }) => {
     return (
         <div>
             <div className="kura_tm_section">
@@ -12,8 +12,7 @@ const Footer = () => {
                             >
                                 <div className="text">
                                     <p>
-                                        Copyright &copy; 2021. All rights
-                                        reserved.
+                                        {languageContent.footerCopyright}
                                     </p>
                                 </div>
                                 <div className="social">
