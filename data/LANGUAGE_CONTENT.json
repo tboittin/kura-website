@@ -1,6 +1,5 @@
 {
   "fr": {
-    "greeting": "salut",
     "job": "Développeur Web",
     "portfolioSubtitle": "Projets précédents",
     "externalLink": "Lien Externe",
@@ -8,10 +7,11 @@
     "skillSubtitle": "Voici quelques outils que j'utilise pour créer des applications web.",
     "skillLanguages": "Langages",
     "skillTools": "Outils",
-    "skillSoftSkills": "Soft Skills"
+    "skillSoftSkills": "Soft Skills",
+    "timelineTitle": "Chronologie",
+    "timelineSubtitle" : "Expériences professionnelles"
   },
   "en-US": {
-    "greeting": "hello",
     "job": "Web Developer",
     "portfolioSubtitle": "Selected Works",
     "externalLink": "External Link",
@@ -19,6 +19,8 @@
     "skillSubtitle": "Here are some tools that I use to create web applications.",
     "skillLanguages": "Languages",
     "skillTools": "Tools",
-    "skillSoftSkills": "Soft Skills"
+    "skillSoftSkills": "Soft Skills",
+    "timelineTitle": "Timeline",
+    "timelineSubtitle" : "Working Period"
   }
 }

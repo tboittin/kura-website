@@ -2,19 +2,19 @@ import React from "react"
 
 import TIMELINE from '../../data/TIMELINE.json'
 
-const Timeline = () => {
+const Timeline = ({ languageContent, locale }) => {
   return (
     <div>
       <div className="kura_tm_section" id="timeline">
         <div className="kura_tm_timeline">
           <div className="container">
             <div className="kura_tm_main_title">
-              <span>Timeline</span>
-              <h3>Working Period</h3>
+              <span>{languageContent.timelineTitle}</span>
+              <h3>{languageContent.timelineSubtitle}</h3>
             </div>
             <div className="timeline_list">
               <ul>
-                  {TIMELINE && TIMELINE.map((time, index) => (
+                  {TIMELINE[locale] && TIMELINE[locale].map((time, index) => (
                       <li className="wow fadeInUp" data-wow-duration=".7s" key={index}>
                       <div className="list_inner">
                         <span>{time.period}</span>

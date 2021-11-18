@@ -1,26 +1,54 @@
-[
-  {
-    "period": "2019 - Today",
-    "role": "Freelance Web Developer",
-    "company": "Thomas David Boittin",
-    "location": "France"
-  },
-  {
-    "period": "2018 - 2019",
-    "role": "COBOL Analyst Developer",
-    "company": "Adaming Conseil",
-    "location": "France"
-  },
-  {
-    "period": "2016 - 2018",
-    "role": "Intern",
-    "company": "GES Sendra",
-    "location": "France"
-  },
-  {
-    "period": "2016",
-    "role": "Agronomy Engineer",
-    "company": "International Institute of Rural Reconstruction",
-    "location": "Philippines"
-  }
-]
+{
+  "en-US": [
+    {
+      "period": "2019 - Today",
+      "role": "Freelance Web Developer",
+      "company": "Thomas David Boittin",
+      "location": "France"
+    },
+    {
+      "period": "2018 - 2019",
+      "role": "COBOL Analyst Developer",
+      "company": "Adaming Conseil",
+      "location": "France"
+    },
+    {
+      "period": "2016 - 2018",
+      "role": "Intern",
+      "company": "GES Sendra",
+      "location": "France"
+    },
+    {
+      "period": "2016",
+      "role": "Agronomy Engineer",
+      "company": "International Institute of Rural Reconstruction",
+      "location": "Philippines"
+    }
+  ],
+  "fr": [
+    {
+      "period": "2019 - En cours",
+      "role": "Développeur Web indépendant",
+      "company": "Thomas David Boittin",
+      "location": "France"
+    },
+    {
+      "period": "2018 - 2019",
+      "role": "Analyste développeur COBOL",
+      "company": "Adaming Conseil",
+      "location": "France"
+    },
+    {
+      "period": "2016 - 2018",
+      "role": "Stagiaire",
+      "company": "GES Sendra",
+      "location": "France"
+    },
+    {
+      "period": "2016",
+      "role": "Ingénieur agronome",
+      "company": "Institut International pour la Reconstruction Rurale",
+      "location": "Philippines"
+    }
+  ]
+}
