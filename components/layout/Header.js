@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const Header = () => {
+const Header = ({ languageContent, locale }) => {
     const [isToggled, setToggled] = useState(false);
     const [scroll, setScroll] = useState(0);
     const toggleTrueFalse = () => setToggled(!isToggled);
@@ -55,16 +55,16 @@ const Header = () => {
                                                 : "current"
                                         }
                                     >
-                                        <a href="#home">Home</a>
+                                        <a href="#home">{languageContent.headerHome}</a>
                                     </li>
                                     <li className={isToggled ? "opened" : ""}>
-                                        <a href="#portfolio">Portfolio</a>
+                                        <a href="#portfolio">{languageContent.headerPortfolio}</a>
                                     </li>
                                     <li className={isToggled ? "opened" : ""}>
-                                        <a href="#skills">Skills</a>
+                                        <a href="#skills">{languageContent.headerSkills}</a>
                                     </li>
                                     <li className={isToggled ? "opened" : ""}>
-                                        <a href="#timeline">Timeline</a>
+                                        <a href="#timeline">{languageContent.headerTimeline}</a>
                                     </li>
                                     {/* <li className={isToggled ? "opened" : ""}>
                                         <a href="#price">Price</a>
@@ -73,7 +73,7 @@ const Header = () => {
                                         <a href="#news">News</a>
                                     </li> */}
                                     <li className={isToggled ? "opened" : ""}>
-                                        <a href="#contact">Contact</a>
+                                        <a href="#contact">{languageContent.Contact}</a>
                                     </li>
                                 </ul>
                             </div>

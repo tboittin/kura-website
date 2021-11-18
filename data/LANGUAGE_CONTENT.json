@@ -1,6 +1,11 @@
 {
   "fr": {
     "job": "Développeur Web",
+    "headerHome": "Accueil",
+    "headerPortfolio": "Portfolio",
+    "headerSkills": "Skills",
+    "headerTimeline": "Chronologie",
+    "headerContact": "Contact",
     "portfolioSubtitle": "Projets précédents",
     "externalLink": "Lien Externe",
     "skillTitle": "Compétences et outils de programmation",
@@ -20,6 +25,11 @@
   },
   "en-US": {
     "job": "Web Developer",
+    "headerHome": "Home",
+    "headerPortfolio": "Portfolio",
+    "headerSkills": "Skills",
+    "headerTimeline": "Timeline",
+    "headerContact": "Contact",
     "portfolioSubtitle": "Selected Works",
     "externalLink": "External Link",
     "skillTitle": "Programming Skills",
