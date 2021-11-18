@@ -334,7 +334,7 @@ body.opened .kura_tm_topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 37px 30px 50px;
+  padding: 20px 37px 30px 50px;
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -358,10 +358,12 @@ body.opened .kura_tm_topbar {
 .kura_tm_topbar .list ul {
   margin: 0px;
   list-style-type: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .kura_tm_topbar .list ul li {
   margin: 0px 20px 0px 0px;
-  display: inline-block;
   list-style-type: none;
   opacity: 0;
   visibility: hidden;
@@ -381,6 +383,17 @@ body.opened .kura_tm_topbar {
   opacity: 1;
   visibility: visible;
   left: 0px;
+}
+.kura_tm_topbar .list ul li.opened.language {
+  display: inline-flex;
+  width: 80px;
+  justify-content: space-evenly;
+}
+.kura_tm_topbar .list ul li.opened.language a>div {
+  display: inline-flex!important;
+  align-items: center;
+  height: 50px;
+  cursor: pointer;
 }
 .kura_tm_topbar .list ul li a {
   text-decoration: none;

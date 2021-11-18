@@ -1,5 +1,6 @@
 import Head from "next/head"
 import { useRouter } from "next/router"
+import { useState } from "react"
 
 import Contact from "../components/elements/Contact"
 import Home from "../components/elements/Home"
@@ -18,13 +19,14 @@ export default function Index() {
   //locales are the languages included in the next.config.js
   //defaultLocale is the language by default when the browser language is not included
   const { locale } = useRouter()
+  const [localeValue, setLocaleValue] = useState(locale)
 
   const description =
     "Thomas Boittin - Portfolio. Passionné de développement avec des compétences graphiques. French developer enthusiast with graphic skills."
   const currentURL = "https://thomasboittin.com/"
   const previewImage = "img/hero/1.jpg"
 
-  const languageContent = LANGUAGE_CONTENT[locale]
+  const languageContent = LANGUAGE_CONTENT[localeValue]
   const pageTitle = languageContent.pageTitle
 
   return (
@@ -52,23 +54,23 @@ export default function Index() {
           <meta name="twitter:image:alt" content={pageTitle} />
         </Head>
 
-        <Header languageContent={languageContent} locale={locale} />
+        <Header languageContent={languageContent} locale={localeValue} setLocaleValue={setLocaleValue} />
 
-        <Home languageContent={languageContent} locale={locale} />
+        <Home languageContent={languageContent} locale={localeValue} />
 
-        <Portfolio languageContent={languageContent} locale={locale} />
+        <Portfolio languageContent={languageContent} locale={localeValue} />
 
-        <Skills languageContent={languageContent} locale={locale} />
+        <Skills languageContent={languageContent} locale={localeValue} />
 
-        <Timeline languageContent={languageContent} locale={locale} />
+        <Timeline languageContent={languageContent} locale={localeValue} />
 
         {/* <Price />
 
         <News /> */}
 
-        <Contact languageContent={languageContent} locale={locale} />
+        <Contact languageContent={languageContent} locale={localeValue} />
 
-        <Footer languageContent={languageContent} locale={locale} />
+        <Footer languageContent={languageContent} locale={localeValue} />
 
         <audio id="audio1">
           <source src="/audio/1.mp3" />

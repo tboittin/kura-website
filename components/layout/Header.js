@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
+import Image from "next/image"
 
-const Header = ({ languageContent }) => {
+const Header = ({ languageContent, setLocaleValue }) => {
   const [isToggled, setToggled] = useState(false)
   const [scroll, setScroll] = useState(0)
   const toggleTrueFalse = () => setToggled(!isToggled)
@@ -67,7 +68,29 @@ const Header = ({ languageContent }) => {
                                         <a href="#news">News</a>
                                     </li> */}
                   <li className={isToggled ? "opened" : ""}>
-                    <a href="#contact">{languageContent.Contact}</a>
+                    <a href="#contact">{languageContent.headerContact}</a>
+                  </li>
+                  <li className="opened language">
+                    <a>
+                      <Image
+                        className="svg"
+                        src="/img/svg/frenchflagframed.svg"
+                        height="30"
+                        width="30"
+                        alt=""
+                        onClick={() => setLocaleValue("fr")}
+                      />
+                    </a>
+                    <a>
+                      <Image
+                        className="svg"
+                        src="/img/svg/US-UK_Flag.svg"
+                        height="30"
+                        width="35"
+                        alt=""
+                        onClick={() => setLocaleValue("en-US")}
+                      />
+                    </a>
                   </li>
                 </ul>
               </div>
