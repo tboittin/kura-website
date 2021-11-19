@@ -1,5 +1,7 @@
 import React from "react"
 
+import Image from "next/image"
+
 import CONTACT from "../../data/CONTACT.json"
 
 const Contact = ({ languageContent }) => {
@@ -46,7 +48,13 @@ const Contact = ({ languageContent }) => {
                 </div>
               </div>
               <div className="right wow fadeInUp" data-wow-duration=".7s">
-                <div className="fields">
+                <Image 
+                  src="/img/logo/arrow.svg"
+                  alt=""
+                  height="350px"
+                  width="350px"
+                />
+                {/* <div className="fields">
                   <form
                     action="/"
                     method="post"
@@ -108,7 +116,7 @@ const Contact = ({ languageContent }) => {
                       </a>
                     </div>
                   </form>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
