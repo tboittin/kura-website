@@ -389,8 +389,8 @@ body.opened .kura_tm_topbar {
   width: 80px;
   justify-content: space-evenly;
 }
-.kura_tm_topbar .list ul li.opened.language a>div {
-  display: inline-flex!important;
+.kura_tm_topbar .list ul li.opened.language a > div {
+  display: inline-flex !important;
   align-items: center;
   height: 50px;
   cursor: pointer;
@@ -2544,4 +2544,16 @@ body.dark .kura_tm_settings .cursor li .svg,
 
 html {
   scroll-behavior: smooth;
+}
+
+@supports (-moz-appearance: none) {
+  @media (min-width: 1040px) {
+    body.opened .kura_tm_hero .content .right .image .main {
+      transform: rotate(7deg);
+      background-image: url("/img/ming-shan-vertical.jpg");
+      background-attachment: fixed;
+      background-position-x: 0px;
+      background-position-y: 0px;
+    }
+  }
 }
