@@ -11,7 +11,7 @@ export const NewsModal = ({ open, onCloseModal, img, title, date }) => {
             <br />
             <div className="details" style={{ marginBottom: "20px" }}>
               {date && <span>{date}</span>}
-              <h3>{title ? title : `VS Code Gets New JavaScript Debugger`}</h3>
+              <h3>{title ? title : ``}</h3>
               <div></div>
             </div>
             <div className="text">
@@ -62,13 +62,19 @@ export const HomeModal = ({
             <br />
             <div className="details" style={{ marginBottom: "20px" }}>
               {date && <span>{date}</span>}
-              <h3>{title ? title : `VS Code Gets New JavaScript Debugger`}</h3>
+              <h3>{title ? title : ``}</h3>
               <div></div>
             </div>
             <div className="hidden_content">
               <div className="popup_informations">
                 <div className="description">
-                  {description && description.map(desc => <p>{desc}</p>)}
+                  {description &&
+                    description.map(desc => (
+                      <div className="modal_block">
+                        {desc.title && <h4>{desc.title}</h4>}
+                        {desc.text.map(text => <p>{text}</p>)}
+                      </div>
+                    ))}
                 </div>
               </div>
             </div>

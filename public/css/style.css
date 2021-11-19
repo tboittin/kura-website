@@ -17,7 +17,8 @@
 10) KURA CONTACT
 11) KURA COPYRIGHT
 12) KURA CURSOR
-13) KURA MEDIA QUERIES (FOR SMALL DEVIVES)
+13) KURA MODAL
+14) KURA MEDIA QUERIES (FOR SMALL DEVIVES)
 
 
 /*---------------------------------------------------*/
@@ -423,6 +424,9 @@ body.opened .kura_tm_topbar {
 }
 .trigger .hamburger {
   padding: 0px;
+}
+.footer_link {
+  cursor: pointer;
 }
 
 /*---------------------------------------------------*/
@@ -2329,7 +2333,15 @@ body.dark .kura_tm_settings .cursor li .svg,
 }
 
 /*---------------------------------------------------*/
-/*	13) KURA MEDIA QUERIES (FOR SMALL DEVIVES)
+/*	13) KURA MODAL
+/*---------------------------------------------------*/
+
+.modal_block {
+  margin-top: 20px;
+}
+
+/*---------------------------------------------------*/
+/*	14) KURA MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 @media (max-width: 2400px) {
   body.opened .kura_tm_hero .content .right .image .main {

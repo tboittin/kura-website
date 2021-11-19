@@ -1,6 +1,27 @@
-import React from "react"
+import React, { useState } from "react"
 
-const Footer = ({ languageContent }) => {
+import { HomeModal } from "../elements/ContentModal"
+
+import TERMS_OF_USE from "../../data/TERMS_OF_USE.json"
+
+const Footer = ({ languageContent, locale }) => {
+  const [open, setOpen] = useState(false)
+  
+  const [modalValue, setModalValue] = useState({
+    img: null,
+    title: "",
+    description: [],
+  })
+
+  const onOpenModal = (img, title, description) => {
+    setOpen(true)
+    setModalValue({ img, title, description })
+  }
+  const onCloseModal = () => {
+    setOpen(false)
+    setModalValue({ img: null, title: "" })
+  }
+
   return (
     <div>
       <div className="kura_tm_section">
@@ -13,7 +34,17 @@ const Footer = ({ languageContent }) => {
               <div className="text">
                 <p>{languageContent.footerCopyright}</p>
               </div>
-              <div className="social">
+              <div
+                className="text"
+                onClick={() => {
+                  onOpenModal("", languageContent.footerTermsOfUse, TERMS_OF_USE[locale])
+                }}
+              >
+                <a className="footer_link">
+                  <p>{languageContent.footerTermsOfUse}</p>
+                </a>
+              </div>
+              {/* <div className="social">
                 <ul>
                   <li>
                     <a href="#">
@@ -61,11 +92,18 @@ const Footer = ({ languageContent }) => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
+      <HomeModal
+        open={open}
+        onCloseModal={() => onCloseModal()}
+        img={modalValue.img}
+        title={modalValue.title}
+        description={modalValue.description}
+      />
     </div>
   )
 }
