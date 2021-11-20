@@ -2373,6 +2373,11 @@ body.dark .kura_tm_settings .cursor li .svg,
   .kura_tm_modalbox .box_inner {
     width: 700px;
   }
+  .kura_tm_contact .right {
+    /* width: 50%;
+    padding-left: 100px; */
+    display: none;
+  }
 }
 @media (max-width: 1040px) {
   .mouse-cursor {
@@ -2438,6 +2443,9 @@ body.dark .kura_tm_settings .cursor li .svg,
     width: 100%;
     padding-left: 0px;
   }
+  .kura_tm_contact {
+    padding-bottom: 100px;
+  }
   .kura_tm_contact .contact_inner {
     flex-direction: column;
   }
@@ -2446,10 +2454,10 @@ body.dark .kura_tm_settings .cursor li .svg,
     padding-right: 0px;
     margin-bottom: 30px;
   }
-  .kura_tm_contact .right {
+  /* .kura_tm_contact .right {
     width: 100%;
     padding-left: 0px;
-  }
+  } */
   .kura_tm_modalbox .box_inner {
     width: 500px;
   }
