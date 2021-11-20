@@ -501,6 +501,9 @@ body.opened .kura_tm_topbar {
   font-family: "Poppins";
   font-weight: 500;
 }
+.kura_tm_mobile_menu .dropdown .dropdown_inner ul li.language a {
+  margin-right: 10px;
+}
 
 /*---------------------------------------------------*/
 /*	04) KURA HERO

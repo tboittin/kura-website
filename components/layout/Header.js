@@ -137,17 +137,39 @@ const Header = ({ languageContent, setLocaleValue }) => {
         <div className={isToggled ? "dropdown active" : "dropdown"}>
           <div className="dropdown_inner">
             <ul className="anchor_nav">
+              <li className="opened language">
+                <a>
+                  <Image
+                    className="svg"
+                    src="/img/svg/frenchflagframed.svg"
+                    height="30"
+                    width="30"
+                    alt=""
+                    onClick={() => setLocaleValue("fr")}
+                  />
+                </a>
+                <a>
+                  <Image
+                    className="svg"
+                    src="/img/svg/US-UK_Flag.svg"
+                    height="30"
+                    width="35"
+                    alt=""
+                    onClick={() => setLocaleValue("en-US")}
+                  />
+                </a>
+              </li>
               <li className="current">
-                <a href="#home">Home</a>
+                <a href="#home">{languageContent.headerHome}</a>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio">{languageContent.headerPortfolio}</a>
               </li>
               <li>
-                <a href="#skills">Skills</a>
+                <a href="#skills">{languageContent.headerSkills}</a>
               </li>
               <li>
-                <a href="#timeline">Timeline</a>
+                <a href="#timeline">{languageContent.headerTimeline}</a>
               </li>
               {/* <li>
                                 <a href="#price">Price</a>
@@ -156,7 +178,7 @@ const Header = ({ languageContent, setLocaleValue }) => {
                                 <a href="#news">News</a>
                             </li> */}
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact">{languageContent.headerContact}</a>
               </li>
             </ul>
           </div>
