@@ -86,6 +86,7 @@ const Portfolio = ({ languageContent, locale }) => {
                               /> */}
                             <div className='thumbnail'>
                               <Image
+                                className="skeleton"
                                 src={image.src}
                                 alt={image.sub}
                                 height='460px'

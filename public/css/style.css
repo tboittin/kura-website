@@ -991,6 +991,21 @@ body.opened .kura_tm_hero .down {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+
 .kura_tm_portfolio .portfolio_list .list_inner:hover .overlay {
   opacity: 1;
   visibility: visible;
@@ -1146,7 +1161,6 @@ body.opened .kura_tm_hero .down {
 .kura_tm_swiper_progress .my_navigation ul li .my_prev .svg {
   transform: rotate(180deg);
 }
-
 /*---------------------------------------------------*/
 /*	06) KURA SKILLS
 /*---------------------------------------------------*/
