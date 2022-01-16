@@ -35,19 +35,19 @@ const Portfolio = ({ languageContent, locale }) => {
 
   return (
     <div>
-      <div className="kura_tm_section" id="portfolio">
-        <div className="kura_tm_portfolio">
-          <div className="container">
-            <div className="kura_tm_main_title">
+      <div className='kura_tm_section' id='portfolio'>
+        <div className='kura_tm_portfolio'>
+          <div className='container'>
+            <div className='kura_tm_main_title'>
               <span>Portfolio</span>
               <h3>{languageContent.portfolioSubtitle}</h3>
             </div>
             <div
-              className="portfolio_list gallery_zoom wow fadeInUp"
-              data-wow-duration=".7s"
+              className='portfolio_list gallery_zoom wow fadeInUp'
+              data-wow-duration='.7s'
             >
-              <div className="swiper-container">
-                <div className="swiper-wrapper">
+              <div className='swiper-container'>
+                <div className='swiper-wrapper'>
                   <Swiper
                     slidesPerView={3}
                     spaceBetween={30}
@@ -77,75 +77,73 @@ const Portfolio = ({ languageContent, locale }) => {
                     }}
                   >
                     {IMAGES.map((image, index) => (
-                      <div key={image.keyword}>
-                        <SwiperSlide className="swiper-slide">
-                          <div className="list_inner">
-                            <div className="image">
-                              {/* <img
+                      <SwiperSlide className='swiper-slide' key={image.keyword}>
+                        <div className='list_inner'>
+                          <div className='image'>
+                            {/* <img
                                 src="/img/portfolio/410-460.jpg"
                                 alt={image.sub}
                               /> */}
-                              <div className="thumbnail">
-                                <Image
-                                  src={image.src}
-                                  alt={image.sub}
-                                  height="460px"
-                                  width="410px"
-                                />
-                              </div>
-                              <div
-                                className="main"
-                                // style={{
-                                //   backgroundImage: "url(" + image.src + ")",
-                                // }}
-                              ></div>
-                              <div className="overlay"></div>
-                              <img
-                                className="svg"
-                                src="/img/svg/right-arrow.svg"
-                                alt=""
+                            <div className='thumbnail'>
+                              <Image
+                                src={image.src}
+                                alt={image.sub}
+                                height='460px'
+                                width='410px'
                               />
-                              <div className="details">
-                                <h3>{image.title}</h3>
-                                <span>{image.sub[locale]}</span>
-                              </div>
                             </div>
-                            <a
-                              className="kura_tm_full_link popup-vimeo"
-                              onClick={() => showLightBox(index)}
-                            ></a>
+                            <div
+                              className='main'
+                              // style={{
+                              //   backgroundImage: "url(" + image.src + ")",
+                              // }}
+                            ></div>
+                            <div className='overlay'></div>
+                            <img
+                              className='svg'
+                              src='/img/svg/right-arrow.svg'
+                              alt=''
+                            />
+                            <div className='details'>
+                              <h3>{image.title}</h3>
+                              <span>{image.sub[locale]}</span>
+                            </div>
                           </div>
-                          {image.link && (
-                            <div className="external-link">
-                              <a href={image.link} target="_blank">
-                                {languageContent.externalLink}
-                              </a>
-                            </div>
-                          )}
-                        </SwiperSlide>
-                      </div>
+                          <a
+                            className='kura_tm_full_link popup-vimeo'
+                            onClick={() => showLightBox(index)}
+                          ></a>
+                        </div>
+                        {image.link && (
+                          <div className='external-link'>
+                            <a href={image.link} target='_blank'>
+                              {languageContent.externalLink}
+                            </a>
+                          </div>
+                        )}
+                      </SwiperSlide>
                     ))}
                   </Swiper>
                 </div>
-                <div className="kura_tm_swiper_progress fill">
-                  <div className="my_pagination_in"></div>
-                  <div className="my_navigation">
+                <div className='kura_tm_swiper_progress fill'>
+                  <div className='my_pagination_in'></div>
+                  <div className='my_navigation'>
                     <ul>
                       <li>
-                        <a className="my_prev">
+                        <a className='my_prev'>
                           <img
-                            className="svg"
-                            src="img/svg/right-arrow.svg"
-                            alt=""
+                            className='svg'
+                            src='img/svg/right-arrow.svg'
+                            alt=''
                           />
                         </a>
                       </li>
                       <li>
-                        <a className="my_next">
+                        <a className='my_next'>
                           <img
-                            className="svg"
-                            src="img/svg/right-arrow.svg"
-                            alt=""
+                            className='svg'
+                            src='img/svg/right-arrow.svg'
+                            alt=''
                           />
                         </a>
                       </li>
