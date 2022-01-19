@@ -906,7 +906,10 @@ body.opened .kura_tm_hero .down {
 .kura_tm_hero .down a:hover {
   color: #ff4522;
 }
-
+.description_wrap .news_popup_informations .image {
+  position: relative;
+  height: 70vh;
+}
 /*---------------------------------------------------*/
 /*	05) KURA PORTFOLIO
 /*---------------------------------------------------*/
