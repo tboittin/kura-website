@@ -25,6 +25,19 @@
       ],
       "image": "img/hero/graph.png",
       "keyword": "graph"
+    },
+    {
+      "title": "DevOps",
+      "description": [
+        {
+          "text": [
+            "Approche/philosophie DevOps qui permet de prendre en compte les différentes étapes du process de déploiement.",
+            "L'objectif étant une meilleur continuité  et une meilleure gestion générale des étapes d'intégration et de déploiement/livraison."
+          ]
+        }
+      ],
+      "image": "img/hero/graph.png",
+      "keyword": "devops"
     }
   ],
   "en-US": [
@@ -53,6 +66,19 @@
       ],
       "image": "img/hero/graph.png",
       "keyword": "graph"
+    },
+    {
+      "title": "DevOps",
+      "description": [
+        {
+          "text": [
+            "DevOps approach/philosophy that allows to consider the different steps of the deployment process.",
+            "The purpose is a better flow and a better overall management of the integration and deployment/delivery stages."
+          ]
+        }
+      ],
+      "image": "img/hero/graph.png",
+      "keyword": "devops"
     }
   ]
 }
