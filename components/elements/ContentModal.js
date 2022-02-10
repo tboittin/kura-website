@@ -58,14 +58,14 @@ export const HomeModal = ({
       <div className="box_inner">
         <div className="description_wrap" style={{ padding: "30px" }}>
           <div className="news_popup_informations">
-            <div className="image">
+            {/* <div className="image">
               <Image
                 src={"/" + img}
                 alt=""
                 className="skeleton"
                 layout="fill"
               />
-            </div>
+            </div> */}
             <br />
             <div className="details" style={{ marginBottom: "20px" }}>
               {date && <span>{date}</span>}

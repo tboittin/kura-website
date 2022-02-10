@@ -35,13 +35,13 @@ const Home = ({ languageContent, locale }) => {
                       <li key={content.keyword}>
                         <a
                           href="#"
-                          onClick={() => {
-                            onOpenModal(
-                              content.image,
-                              content.title,
-                              content.description
-                            )
-                          }}
+                          // onClick={() => {
+                          //   onOpenModal(
+                          //     content.image,
+                          //     content.title,
+                          //     content.description
+                          //   )
+                          // }}
                         >
                           <img
                             className="image"
