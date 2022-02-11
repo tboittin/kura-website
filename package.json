@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "jarallax": "^1.12.7",
-    "next": "^11.1.3",
+    "next": "^11.1.4",
     "node": "^16.12.0",
     "react": "17.0.2",
     "react-awesome-lightbox": "^1.8.1",
