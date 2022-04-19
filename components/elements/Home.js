@@ -4,6 +4,9 @@ import { HomeModal } from "./ContentModal"
 
 import HERO_CONTENT from "../../data/HERO_CONTENT.json"
 import IMG_CREDIT from "../../data/IMG_CREDIT.json"
+import LeftPanel from "./components/left-panel"
+import RightPanel from "./components/right-panel"
+import DownAnchor from "./components/down-anchor"
 
 const Home = ({ languageContent, locale }) => {
   const [open, setOpen] = useState(false)
@@ -26,56 +29,19 @@ const Home = ({ languageContent, locale }) => {
         <div className="kura_tm_hero">
           <div className="container">
             <div className="content">
-              <div className="left">
-                <span className="name">Thomas Boittin</span>
-                <h3 className="job">{languageContent.job}</h3>
-                <div className="services">
-                  <ul>
-                    {HERO_CONTENT[locale].map(content => (
-                      <li key={content.keyword}>
-                        <a
-                          href="#"
-                          onClick={() => {
-                            onOpenModal(
-                              content.image,
-                              content.title,
-                              content.description
-                            )
-                          }}
-                        >
-                          <img
-                            className="image"
-                            src="/img/service/1.jpg"
-                            alt=""
-                          />
-                          <span>{content.title}</span>
-                          <img
-                            className="svg"
-                            src="/img/svg/right-arrow.svg"
-                            alt=""
-                          />
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="short_info"></div>
-              </div>
-              <div className="right">
-                <div className="image">
-                  <img src="/img/thumbs/3-4.jpg" alt="" />
-                  <div
-                    className="main"
-                    title={IMG_CREDIT["ming-shan-vertical"][locale]}
-                  ></div>
-                  <div className="shape"></div>
-                </div>
-              </div>
-              <div className="down anchor">
-                <a href="#portfolio">
-                  <img className="svg" src="/img/svg/down-arrow.svg" alt="" />
-                </a>
-              </div>
+              <LeftPanel
+                languageContent={languageContent}
+                HERO_CONTENT={HERO_CONTENT}
+                locale={locale}
+                onOpenModal={onOpenModal}
+              />
+              <RightPanel 
+                IMG_CREDIT={IMG_CREDIT}
+                locale={locale}
+              />
+              <DownAnchor
+                sectionTarget={'portfolio'}
+              />
             </div>
           </div>
         </div>
