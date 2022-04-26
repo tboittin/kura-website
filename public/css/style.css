@@ -904,7 +904,10 @@ body.opened .kura_tm_hero .down {
 .kura_tm_hero .down a:hover {
   color: #ff4522;
 }
-
+.description_wrap .news_popup_informations .image {
+  position: relative;
+  height: 70vh;
+}
 /*---------------------------------------------------*/
 /*	05) KURA PORTFOLIO
 /*---------------------------------------------------*/
@@ -1726,6 +1729,11 @@ body.opened .kura_tm_hero .down {
   width: 50%;
   padding-left: 100px;
 }
+.kura_tm_contact .right .contact_arrow {
+  top: -20%;
+  left: 20%;
+  position: relative;
+}
 .kura_tm_contact .fields {
   width: 100%;
   height: auto;
@@ -2375,11 +2383,6 @@ body.dark .kura_tm_settings .cursor li .svg,
   .kura_tm_modalbox .box_inner {
     width: 700px;
   }
-  .kura_tm_contact .right {
-    /* width: 50%;
-    padding-left: 100px; */
-    display: none;
-  }
 }
 @media (max-width: 1040px) {
   .mouse-cursor {
@@ -2455,6 +2458,11 @@ body.dark .kura_tm_settings .cursor li .svg,
     width: 100%;
     padding-right: 0px;
     margin-bottom: 30px;
+  }
+  .kura_tm_contact .right {
+    /* width: 50%;
+    padding-left: 100px; */
+    display: none;
   }
   /* .kura_tm_contact .right {
     width: 100%;

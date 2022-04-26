@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 import { Modal } from "react-responsive-modal"
 export const NewsModal = ({ open, onCloseModal, img, title, date }) => {
   return (
@@ -56,9 +58,14 @@ export const HomeModal = ({
       <div className="box_inner">
         <div className="description_wrap" style={{ padding: "30px" }}>
           <div className="news_popup_informations">
-            <div className="image">
-              <img src={img} alt="" />
-            </div>
+            {/* <div className="image">
+              <Image
+                src={"/" + img}
+                alt=""
+                className="skeleton"
+                layout="fill"
+              />
+            </div> */}
             <br />
             <div className="details" style={{ marginBottom: "20px" }}>
               {date && <span>{date}</span>}
@@ -72,7 +79,9 @@ export const HomeModal = ({
                     description.map(desc => (
                       <div className="modal_block">
                         {desc.title && <h4>{desc.title}</h4>}
-                        {desc.text.map(text => <p>{text}</p>)}
+                        {desc.text.map(text => (
+                          <p>{text}</p>
+                        ))}
                       </div>
                     ))}
                 </div>

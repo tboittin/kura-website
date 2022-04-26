@@ -48,12 +48,14 @@ const Contact = ({ languageContent }) => {
                 </div>
               </div>
               <div className="right wow fadeInUp" data-wow-duration=".7s">
-                <Image 
-                  src="/img/logo/arrow.svg"
-                  alt=""
-                  height="350px"
-                  width="350px"
-                />
+                <div className="contact_arrow">
+                  <Image
+                    src="/img/logo/arrow.svg"
+                    alt=""
+                    height="550px"
+                    width="550px"
+                  />
+                </div>
                 {/* <div className="fields">
                   <form
                     action="/"
