@@ -839,8 +839,6 @@ body.opened .kura_tm_hero .content .right .image .main {
   transform: rotate(7deg);
   background-image: url("/img/ming-shan-vertical.jpg");
   background-attachment: fixed;
-  background-position-x: 500px;
-  background-position-y: -1700px;
 }
 .kura_tm_hero .content .right .image .shape {
   position: absolute;
@@ -2360,19 +2358,6 @@ body.dark .kura_tm_settings .cursor li .svg,
 /*---------------------------------------------------*/
 /*	14) KURA MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
-@media (max-width: 2400px) {
-  body.opened .kura_tm_hero .content .right .image .main {
-    background-position-x: 500px;
-    background-position-y: -1250px;
-  }
-}
-
-@media (max-width: 1700px) {
-  body.opened .kura_tm_hero .content .right .image .main {
-    background-position-x: 500px;
-    background-position-y: -800px;
-  }
-}
 
 @media (max-width: 1400px) {
   .container {
