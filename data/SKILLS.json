@@ -1,11 +1,11 @@
 {
   "en-US": {
-    "languages": ["React.js", "Next.js", "Node.js", "Javascript", "HTML & CSS"],
+    "languages": ["React.js", "Next.js", "Node.js", "Javascript", "Typescript", "HTML & CSS"],
     "tools": ["Git", "Figma", "Vercel", "Firebase", "GraphQL", "mongodb"],
     "softSkills": ["Teamwork", "Autonomy", "Fr & Eng"]
   },
   "fr": {
-    "languages": ["React.js", "Next.js", "Node.js", "Javascript", "HTML & CSS"],
+    "languages": ["React.js", "Next.js", "Node.js", "Javascript", "Typescript", "HTML & CSS"],
     "tools": ["Git", "Figma", "Vercel", "Firebase", "GraphQL", "mongodb"],
     "softSkills": ["Travail en équipe", "Autonomie", "Fr & Eng"]
   }

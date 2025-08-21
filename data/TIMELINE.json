@@ -1,6 +1,18 @@
 {
   "en-US": [
     {
+      "period": "2023 - 2025",
+      "role": "Fullstack Web Developer",
+      "company": "Randstad Digital - Thales UWS",
+      "location": "Sophia Antipolis - France"
+    },
+    {
+      "period": "2022 - 2023",
+      "role": "Fullstack Web Developer",
+      "company": "Randstad Digital - Orange",
+      "location": "Mougins - France"
+    },
+    {
       "period": "2019 - Today",
       "role": "Freelance Web Developer",
       "company": "Thomas David Boittin",
@@ -13,12 +25,6 @@
       "location": "France"
     },
     {
-      "period": "2016 - 2018",
-      "role": "Intern",
-      "company": "GES Sendra",
-      "location": "France"
-    },
-    {
       "period": "2016",
       "role": "Agronomy Engineer",
       "company": "International Institute of Rural Reconstruction",
@@ -26,6 +32,18 @@
     }
   ],
   "fr": [
+    {
+      "period": "2023 - 2025",
+      "role": "Développeur Web Fullstack",
+      "company": "Randstad Digital - Thales UWS",
+      "location": "Sophia Antipolis - France"
+    },
+    {
+      "period": "2022 - 2023",
+      "role": "Développeur Web Fullstack",
+      "company": "Randstad Digital - Orange",
+      "location": "Mougins - France"
+    },
     {
       "period": "2019 - En cours",
       "role": "Développeur Web indépendant",
@@ -36,12 +54,6 @@
       "period": "2018 - 2019",
       "role": "Analyste développeur COBOL",
       "company": "Adaming Conseil",
-      "location": "France"
-    },
-    {
-      "period": "2016 - 2018",
-      "role": "Stagiaire",
-      "company": "GES Sendra",
       "location": "France"
     },
     {

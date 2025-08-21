@@ -9,13 +9,13 @@
     "keyword": "mail",
     "icon": "./img/svg/mail.svg",
     "text": "tboittin@gmail.com",
-    "link": "mailto:tboittin@gmaiil.com"
+    "link": "mailto:tboittin@gmail.com"
   },
   {
     "keyword": "domain",
     "icon": "./img/svg/globe.svg",
-    "text": "thomasboittin.com",
-    "link": "https://thomasboittin.com/"
+    "text": "thomasboittin.vecel.app",
+    "link": "https://thomasboittin.vercel.app/"
   },
   {
     "keyword": "location",
