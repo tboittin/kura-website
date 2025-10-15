@@ -6,12 +6,25 @@
         {
           "text": [
             "Je suis développeur web JS/TS avec 6 ans d'expérience avec une expertise en ReactJS. Mon parcours inclut des missions de consultant, notamment en écosystème sécurisé.",
-            "J'apprécie le travail en équipe et je m'intègre rapidement pour apporter une contribution efficace. Je me forme actuellement à la création d'applications assistées par IA."
+            "J'apprécie le travail en équipe et je m'intègre rapidement pour apporter une contribution efficace."
           ]
         }
       ],
       "image": "img/hero/dev.png",
       "keyword": "web"
+    },
+    {
+      "title": "Développement LLM",
+      "description": [
+        {
+          "text": [
+            "Je me forme actuellement à la création d'applications assistées par IA.",
+            "L'objectif étant de mettre en place des solutions complètes utilisant des LLM ou des SLM."
+          ]
+        }
+      ],
+      "image": "img/hero/dev.png",
+      "keyword": "llm"
     }
   ],
   "en-US": [
@@ -21,12 +34,25 @@
         {
           "text": [
             "I am a JS/TS web developer with 6 years of experience and expertise in ReactJS. My career includes consulting assignments, particularly in secure ecosystems.",
-"I value teamwork and I integrate quickly to make an effective contribution. I am currently training in the creation of AI-assisted applications."
+            "I value teamwork and I integrate quickly to make an effective contribution. I am currently training in the creation of AI-assisted applications."
           ]
         }
       ],
       "image": "img/hero/dev.png",
       "keyword": "web"
+    },
+    {
+      "title": "LLM Development",
+      "description": [
+        {
+          "text": [
+            "I am currently training to create AI-assisted applications.",
+            "The goal is to implement complete solutions using LLM or SLM."
+          ]
+        }
+      ],
+      "image": "img/hero/dev.png",
+      "keyword": "llm"
     }
   ]
 }

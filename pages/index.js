@@ -23,7 +23,7 @@ export default function Index() {
 
   const description =
     "Thomas Boittin - Portfolio. Passionné de développement avec des compétences graphiques. French developer enthusiast with graphic skills."
-  const currentURL = "https://thomasboittin.com/"
+  const currentURL = "https://thomasboittin.vercel.app/"
   const previewImage = "img/hero/1.jpg"
 
   const languageContent = LANGUAGE_CONTENT[localeValue]
